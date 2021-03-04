@@ -1,0 +1,113 @@
+
+#main-title {
+    text-align: center;
+    font-family: Comic Verdana, Comic Sans, cursive;
+    font-size: 80;
+    color: black;
+    margin-top: 500;
+    margin-bottom: 680;
+  }
+
+  p {
+    font-family: Comic Verdana, Comic Sans, cursive;
+    font-weight: 200;
+  }
+  
+  #container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+.region-title {
+  font-family: Comic Verdana, Comic Sans, cursive;
+  font-size: 30pt;
+  color: black;
+  margin-left: 23%;
+
+}
+
+.cave-title {
+  font-family: Comic Verdana, Comic Sans, cursive;
+    font-size: 20pt;
+    margin-left: 33%;
+    color: rgb(22, 22, 143);
+}
+
+.cave-image {
+  width: 700;
+    height: auto;
+    margin-bottom: 2%;
+}
+
+.description {
+  flex: 0 41%;
+  margin-left: 1%;
+  font-size: 11pt;
+}
+
+.description-title {
+  font-family: Comic Verdana, Comic Sans, cursive;
+  color: rgb(22, 22, 143);
+  margin-left: 1%;
+}
+
+.description-text {
+  size: 12px;
+}
+
+.characteristics {
+  flex: 0 41%;
+  margin-left: 1%;
+  font-size: 11pt;
+  margin-top: 2%;
+  margin-bottom:1%;
+}
+
+.characteristics-title {
+  font-family: Comic Verdana, Comic Sans, cursive;
+  color: rgb(22, 22, 143);
+  margin-left: 1%;
+}
+
+.characteristics-text {
+  size: 12px;
+}
+
+.forTourists {
+  flex: 0 41%;
+  margin-left: 1%;
+  font-size: 11pt;
+  margin-top: 2%;
+  margin-bottom: 1%;
+}
+
+.forTourists-title {
+  font-family: Comic Verdana, Comic Sans, cursive;
+  color: rgb(22, 22, 143);
+  margin-left: 1%;
+}
+
+.forTourists-text {
+  size: 12px;
+}
+
+.map {
+  flex: 0 41%;
+  margin-left: 1%;
+  font-size: 11pt;
+  margin-bottom: 4%;
+}
+
+.map-title {
+  font-family: Comic Verdana, Comic Sans, cursive;
+  color: rgb(22, 22, 143);
+  margin-left: 1%;
+}
+
+.map-image {
+  width: 20;
+  height: 140;
+  margin-right: 4%;
+
+}

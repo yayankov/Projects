@@ -1,0 +1,3778 @@
+{
+  "id": "0dbf5936-45d2-47d3-939c-6c3cf26641f1",
+  "version": "2.0",
+  "name": "OLX",
+  "url": "https://www.olx.bg/",
+  "tests": [{
+    "id": "ca181206-ff9f-46cd-a43f-6bd69f685858",
+    "name": "TC_FUNCT_Sort_01",
+    "commands": [{
+      "id": "1d306f06-dbf3-4c23-8cc9-e45e3a1e792a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77db5639-f84a-42dd-a037-68f512b17aad",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "641a2ef3-fa87-4bcf-a5a3-5959bb84b24f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.maincategories-list:nth-child(2) > .li:nth-child(1) span:nth-child(1)",
+      "targets": [
+        ["css=.maincategories-list:nth-child(2) > .li:nth-child(1) span:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='searchmain-container']/div/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Недвижими имоти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd68642b-b3fa-465c-8788-3cfa74c258e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fleft:nth-child(2) > .cat-368 > .link > span",
+      "targets": [
+        ["css=.fleft:nth-child(2) > .cat-368 > .link > span", "css:finder"],
+        ["xpath=//div[@id='bottom368']/ul/li[2]/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4a4dbdc-26de-4fab-b382-81440eca71ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "513a44b3-8c6a-4e03-977d-1603c5a0d92b",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='cityField']",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "София"
+    }, {
+      "id": "7966754d-f659-4ac7-9639-92f9f794d746",
+      "comment": "",
+      "command": "click",
+      "target": "css=.color-9:nth-child(3)",
+      "targets": [
+        ["css=.color-9:nth-child(3)", "css:finder"],
+        ["xpath=//ul[@id='autosuggest-geo-ul']/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Област София-град')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a1dbe19-8af6-4b4a-ad8d-a184f23e6c65",
+      "comment": "",
+      "command": "click",
+      "target": "css=#targetorder-select-gallery > dt > a",
+      "targets": [
+        ["css=#targetorder-select-gallery > dt > a", "css:finder"],
+        ["xpath=//dl[@id='targetorder-select-gallery']/dt/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[593]", "xpath:href"],
+        ["xpath=//form/dl/dt/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Най-нови')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "009694e9-aa61-43b7-b1b1-f523bebea49b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#targetorder-select-gallery li:nth-child(2) > a",
+      "targets": [
+        ["css=#targetorder-select-gallery li:nth-child(2) > a", "css:finder"],
+        ["xpath=//dl[@id='targetorder-select-gallery']/dd/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[595]", "xpath:href"],
+        ["xpath=//form/dl/dd/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Най-евтини')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65b2319f-c146-4090-8f57-cb7829f6e024",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#targetorder-select-gallery > dt > a",
+      "targets": [],
+      "value": "Най-евтини"
+    }]
+  }, {
+    "id": "0fa34336-d206-4c5b-b722-d87df3493853",
+    "name": "TC_FUNCT_Search_05",
+    "commands": [{
+      "id": "dfda0ea8-8494-4497-ac37-1ea33b35ba76",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e19feda-7ed2-494b-a664-1656bec9f75c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f292b329-9567-47e8-a7d0-5af64df9ebb5",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfe8dced-3858-4d5e-8b4f-caf1f6f017b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "колело"
+    }, {
+      "id": "2779be4a-3749-4069-a55c-bfd4f219dde5",
+      "comment": "",
+      "command": "click",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7569e0b-8373-4e97-9345-cf2c1dc4676c",
+      "comment": "",
+      "command": "type",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Варна"
+    }, {
+      "id": "9241b666-9b22-4ba9-b18a-366059774901",
+      "comment": "",
+      "command": "click",
+      "target": "css=.color-9:nth-child(3)",
+      "targets": [
+        ["css=.color-9:nth-child(3)", "css:finder"],
+        ["xpath=//ul[@id='autosuggest-geo-ul']/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li/a/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d107686b-4c1d-4bae-abf9-d66d9d5c1704",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-searchmain",
+      "targets": [
+        ["id=submit-searchmain", "id"],
+        ["css=#submit-searchmain", "css:finder"],
+        ["xpath=//input[@id='submit-searchmain']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7295470-a54f-457b-8b64-43a93ffa82ba",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wrap:nth-child(3) .marginright5:nth-child(1) > strong:nth-child(1)",
+      "targets": [
+        ["css=.wrap:nth-child(3) .marginright5:nth-child(1) > strong:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='body-container']/div[3]/div/div/table/tbody/tr[3]/td/div/table/tbody/tr/td[2]/div/h3/a/strong", "xpath:idRelative"],
+        ["xpath=//h3/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Колело / Велосипед / Kolelo/ Velosiped - 18 скорости shimano')]", "xpath:innerText"]
+      ],
+      "value": "Колело"
+    }, {
+      "id": "25d38dc3-fc80-4dc8-b38c-0e10962ca99f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=tbody:nth-child(2) > .wrap:nth-child(3) .breadcrumb:nth-child(1) > span:nth-child(1)",
+      "targets": [
+        ["css=tbody:nth-child(2) > .wrap:nth-child(3) .breadcrumb:nth-child(1) > span:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='body-container']/div[3]/div/div/table/tbody/tr[3]/td/div/table/tbody/tr[2]/td/div/p/small/span", "xpath:idRelative"],
+        ["xpath=//small/span", "xpath:position"],
+        ["xpath=//span[contains(.,'гр. Варна, Левски')]", "xpath:innerText"]
+      ],
+      "value": "Варна"
+    }]
+  }, {
+    "id": "e24b5f82-7d23-4d77-8b8e-67bc7985456f",
+    "name": "TC_FUNCT_Search_08",
+    "commands": [{
+      "id": "7bf3f039-59ab-4e27-9ffc-bc1cbd29b330",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9aa977c3-e255-487b-be87-b23a9e27fe93",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6538bc59-4c10-46b3-a75b-0daa4133e8ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18cade4c-fdbe-40bf-82c2-60fabc424316",
+      "comment": "",
+      "command": "type",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Каравана"
+    }, {
+      "id": "0e4fe739-b13a-46c2-85bd-e676a598259d",
+      "comment": "",
+      "command": "click",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e170720e-595a-4a18-aaab-c2ca4a6e4a66",
+      "comment": "",
+      "command": "type",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Бургас"
+    }, {
+      "id": "d2bb1591-dfc5-4e6e-9f22-bd2ba41aa622",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=гр. Бургас, Област Бургас",
+      "targets": [
+        ["linkText=гр. Бургас, Област Бургас", "linkText"],
+        ["css=.search-choose-selected", "css:finder"],
+        ["xpath=//ul[@id='autosuggest-geo-ul']/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[580]", "xpath:href"],
+        ["xpath=//div[4]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'гр. Бургас, Област Бургас')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89c49f34-e455-4486-a224-53e189029b40",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-searchmain",
+      "targets": [
+        ["id=submit-searchmain", "id"],
+        ["css=#submit-searchmain", "css:finder"],
+        ["xpath=//input[@id='submit-searchmain']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1031d26-b5af-489a-be05-b5017a681238",
+      "comment": "",
+      "command": "click",
+      "target": "css=.currency-link > span",
+      "targets": [
+        ["css=.currency-link > span", "css:finder"],
+        ["xpath=//div[@id='tabs-container']/div/div/ul[2]/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//ul[2]/li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'€')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c245f9d3-d3f9-45dc-81ce-24e3dcf495a6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wrap:nth-child(3) .title-cell:nth-child(2) strong:nth-child(1)",
+      "targets": [
+        ["css=.wrap:nth-child(3) .title-cell:nth-child(2) strong:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='offers_table']/tbody/tr[3]/td/div/table/tbody/tr/td[2]/div/h3/a/strong", "xpath:idRelative"],
+        ["xpath=//h3/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Хладилник / фризер за кола / лодка / каравана / камион')]", "xpath:innerText"]
+      ],
+      "value": "каравана"
+    }, {
+      "id": "f9ff8aac-83e1-49a0-b828-7c9871157812",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wrap:nth-child(3) .breadcrumb:nth-child(1) > span:nth-child(1)",
+      "targets": [
+        ["css=.wrap:nth-child(3) .breadcrumb:nth-child(1) > span:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='offers_table']/tbody/tr[3]/td/div/table/tbody/tr[2]/td/div/p/small/span", "xpath:idRelative"],
+        ["xpath=//small/span", "xpath:position"],
+        ["xpath=//span[contains(.,'гр. Бургас, Меден рудник - зона Б')]", "xpath:innerText"]
+      ],
+      "value": "Бургас"
+    }, {
+      "id": "6a581f50-e1c1-4104-b395-2133cd921205",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.wrap:nth-child(3) .wwnormal:nth-child(3) strong:nth-child(1)",
+      "targets": [
+        ["css=.wrap:nth-child(3) .wwnormal:nth-child(3) strong:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='offers_table']/tbody/tr[3]/td/div/table/tbody/tr/td[3]/div/p/strong", "xpath:idRelative"],
+        ["xpath=//p/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'383 €')]", "xpath:innerText"]
+      ],
+      "value": "€"
+    }]
+  }, {
+    "id": "49233c97-d58f-4693-8a6b-6486bef7229c",
+    "name": "TC_FUNCT_Search_02",
+    "commands": [{
+      "id": "2873948e-b312-408b-9aeb-22b89cb15518",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6958e4aa-6d77-4b5e-b8f0-3c6a05bdf05d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11969b7f-bb82-4fe3-9e44-bdf5db56f0a9",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fac01a9-2f93-417a-9b03-913e2e317c65",
+      "comment": "",
+      "command": "type",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Апартамент"
+    }, {
+      "id": "9a7189ba-eadb-4a99-b50d-28842e2eeada",
+      "comment": "",
+      "command": "click",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc1fd404-c99e-44db-a6fd-e52f080becce",
+      "comment": "",
+      "command": "type",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "София"
+    }, {
+      "id": "36bf64da-ffa9-48c3-a7eb-7a4060df7cc1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.color-9 > strong",
+      "targets": [
+        ["css=.color-9 > strong", "css:finder"],
+        ["xpath=//ul[@id='autosuggest-geo-ul']/li/a/span[2]/strong", "xpath:idRelative"],
+        ["xpath=//span[2]/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b18745f-0281-4df8-9dab-ce8b1b5cc99f",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-searchmain",
+      "targets": [
+        ["id=submit-searchmain", "id"],
+        ["css=#submit-searchmain", "css:finder"],
+        ["xpath=//input[@id='submit-searchmain']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "586adac6-23c0-4bc2-9a3f-616f61a47f69",
+      "comment": "",
+      "command": "store",
+      "target": "80000 €",
+      "targets": [],
+      "value": "min"
+    }, {
+      "id": "efd4f824-9a8b-43c8-9bc8-74b9f45649a1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-from > .header",
+      "targets": [
+        ["css=.button-from > .header", "css:finder"],
+        ["xpath=//li[@id='param_price']/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//li/div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'от (лв.)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4043951e-6b6f-409d-9558-6941461d5f8d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\'search\\[filter_float_price\\3A from\\]\\'\\}",
+      "targets": [
+        ["css=.button-from > .header", "css:finder"],
+        ["xpath=//li[@id='param_price']/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//li/div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'от (лв.)')]", "xpath:innerText"]
+      ],
+      "value": "80000"
+    }, {
+      "id": "f57bc749-4124-4a1e-a06d-644a3a2d00a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-to > .header",
+      "targets": [
+        ["css=.button-to > .header", "css:finder"],
+        ["xpath=//li[@id='param_price']/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li/div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'до (лв.)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf6b7f6f-05dc-4890-8166-c211a9d9bdcf",
+      "comment": "",
+      "command": "store",
+      "target": "150000 €",
+      "targets": [],
+      "value": "max"
+    }, {
+      "id": "ed305ef7-826a-46d9-9ebb-7ceb5863d4a2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\'search\\[filter_float_price\\3A to\\]\\'\\}",
+      "targets": [
+        ["css=.button-to > .header", "css:finder"],
+        ["xpath=//li[@id='param_price']/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li/div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'до (лв.)')]", "xpath:innerText"]
+      ],
+      "value": "150000"
+    }, {
+      "id": "594a4e13-3635-40b9-bb05-a1de0df8f43f",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 3",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "b8113aeb-1ca2-400e-bcab-6a8a3b7619ba",
+      "comment": "",
+      "command": "while",
+      "target": "${index} <= 10",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "101d7c00-b3ab-4d1a-b253-147593839bb2",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=tbody:nth-child(1) > .wrap:nth-child(${index}) .wwnormal:nth-child(3) strong:nth-child(1)",
+      "targets": [
+        ["css=tbody:nth-child(1) > .wrap:nth-child(3) .wwnormal:nth-child(3) strong:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='offers_table']/tbody/tr[3]/td/div/table/tbody/tr/td[3]/div/p/strong", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[3]/td/div/table/tbody/tr/td[3]/div/p/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'10 лв.')]", "xpath:innerText"]
+      ],
+      "value": "price"
+    }, {
+      "id": "0d3e1f42-8235-4d38-9ee5-c70dd0cdad3e",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${price} >= ${min} && ${price} <= ${max}",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "b9353c3f-8559-450d-b17f-462429d51c03",
+      "comment": "",
+      "command": "assert",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }, {
+      "id": "88f969b2-2566-4e13-b678-479c55b6c449",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${index}+1",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "2e82cc09-84ce-40a6-bf9e-c0f26483dbd4",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e2aa3e7a-dfda-421f-9686-30e2f46d3567",
+    "name": "TC_FUNCT_Reg_01",
+    "commands": [{
+      "id": "65656550-89bf-47fa-9ad0-3684046a1ba3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54221dac-921c-42c9-a6fd-b736df489af8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "03efd1cb-ee72-43b0-962a-81654ae3b7b5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link:nth-child(2) > strong",
+      "targets": [
+        ["css=.link:nth-child(2) > strong", "css:finder"],
+        ["xpath=//a[@id='topLoginLink']/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Моят профил')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54078a13-7e61-478d-abd6-b7dfdf84087b",
+      "comment": "",
+      "command": "click",
+      "target": "id=register_tab",
+      "targets": [
+        ["id=register_tab", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=.login-box:nth-child(3) #register_tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[@id='register_tab']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[9]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68a573cf-795d-44aa-9388-8b46ab10adda",
+      "comment": "",
+      "command": "click",
+      "target": "id=userEmailRegister",
+      "targets": [
+        ["id=userEmailRegister", "id"],
+        ["name=register[email]", "name"],
+        ["css=.active #userEmailRegister", "css:finder"],
+        ["xpath=//input[@id='userEmailRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59c177a8-6ed9-4063-80aa-491b27eaff8a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//input[@id='userEmailRegister']",
+      "targets": [
+        ["id=userEmailRegister", "id"],
+        ["name=register[email]", "name"],
+        ["css=.error #userEmailRegister", "css:finder"],
+        ["xpath=//input[@id='userEmailRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30bdd147-39fa-4486-97d3-ba5b0416121f",
+      "comment": "",
+      "command": "echo",
+      "target": "Email verified",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "41e12276-f40a-4dec-8771-cab9ad9dabbc",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPassRegister",
+      "targets": [
+        ["id=userPassRegister", "id"],
+        ["name=register[password]", "name"],
+        ["css=.active #userPassRegister", "css:finder"],
+        ["xpath=//input[@id='userPassRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a26e21d2-7d97-4d5c-b114-2180e3c2f6e1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=userPassRegister",
+      "targets": [
+        ["id=userPassRegister", "id"],
+        ["name=register[password]", "name"],
+        ["css=.active #userPassRegister", "css:finder"],
+        ["xpath=//input[@id='userPassRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f237a3e5-8392-4c65-b133-c0ff4fd8fcdf",
+      "comment": "",
+      "command": "echo",
+      "target": "Password verified",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "fbea0838-9c99-460b-92f6-8cc592cb036e",
+    "name": "TC_FUNCT_Reg_02",
+    "commands": [{
+      "id": "d0efd8d0-093c-43c6-add7-796f6c369979",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3b67f30-c7e1-45f6-aa65-477a8400e783",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed48e9b2-dcf8-429a-ba72-f93435c6a0a2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link:nth-child(2) > strong",
+      "targets": [
+        ["css=.link:nth-child(2) > strong", "css:finder"],
+        ["xpath=//a[@id='topLoginLink']/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Моят профил')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97676e19-95e7-48cf-a999-22b918ce3ca2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=register_tab",
+      "targets": [
+        ["id=register_tab", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=.login-box:nth-child(3) #register_tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[@id='register_tab']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[9]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9b373596-2cb8-430a-b1fa-0a11bb2fa29d",
+      "comment": "",
+      "command": "click",
+      "target": "id=register_tab",
+      "targets": [
+        ["id=register_tab", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=.login-box:nth-child(3) #register_tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[@id='register_tab']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[9]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "65920f46-8642-4449-8b7c-92e250d9ac10",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=register_tab",
+      "targets": [
+        ["id=register_tab", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=.login-box:nth-child(3) #register_tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[@id='register_tab']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[9]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93354d54-240b-445d-9691-d45515eb52d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=userEmailRegister",
+      "targets": [
+        ["id=userEmailRegister", "id"],
+        ["name=register[email]", "name"],
+        ["css=.active #userEmailRegister", "css:finder"],
+        ["xpath=//input[@id='userEmailRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3ec7cd2-c843-46a7-8790-805f34ff404c",
+      "comment": "",
+      "command": "type",
+      "target": "id=userEmailRegister",
+      "targets": [
+        ["id=userEmailRegister", "id"],
+        ["name=register[email]", "name"],
+        ["css=.active #userEmailRegister", "css:finder"],
+        ["xpath=//input[@id='userEmailRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "yani1999@mail.bg"
+    }, {
+      "id": "66c4a1c6-0f5d-4633-8f45-06adb6a3f467",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPassRegister",
+      "targets": [
+        ["id=userPassRegister", "id"],
+        ["name=register[password]", "name"],
+        ["css=.active #userPassRegister", "css:finder"],
+        ["xpath=//input[@id='userPassRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53f82ba8-53c6-4bec-ab64-956c946ff26f",
+      "comment": "",
+      "command": "type",
+      "target": "id=userPassRegister",
+      "targets": [
+        ["id=userPassRegister", "id"],
+        ["name=register[password]", "name"],
+        ["css=.active #userPassRegister", "css:finder"],
+        ["xpath=//input[@id='userPassRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "asdZaq1x!2"
+    }, {
+      "id": "e0b8672e-ba68-4b99-871e-28a9705ca55f",
+      "comment": "",
+      "command": "click",
+      "target": "id=button_register",
+      "targets": [
+        ["id=button_register", "id"],
+        ["css=.active #button_register", "css:finder"],
+        ["xpath=//button[@id='button_register']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9542c17d-a29b-48c9-8b8d-298b422c3593",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.errorbox",
+      "targets": [
+        ["css=.errorbox", "css:finder"],
+        ["xpath=//form[@id='registerForm']/div", "xpath:idRelative"],
+        ["xpath=//form/div", "xpath:position"]
+      ],
+      "value": "Email address already exists"
+    }]
+  }, {
+    "id": "070c0016-ac2f-45b9-8856-98a4289d7062",
+    "name": "TC_FUNCT_Reg_03",
+    "commands": [{
+      "id": "6589ab10-d76f-4375-8ad8-0a5a97d23c3e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0965f208-b27d-4a56-9ec5-1ec09da3dbe8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "772768d3-cee7-4889-9fd4-9d2e88d848a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link:nth-child(2) > strong",
+      "targets": [
+        ["css=.link:nth-child(2) > strong", "css:finder"],
+        ["xpath=//a[@id='topLoginLink']/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Моят профил')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06fcb591-884d-406a-97ad-1b0b746d9454",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=register_tab",
+      "targets": [
+        ["id=register_tab", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=.login-box:nth-child(3) #register_tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[@id='register_tab']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[9]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "10c618c5-370c-4471-8147-28375d306283",
+      "comment": "",
+      "command": "click",
+      "target": "id=register_tab",
+      "targets": [
+        ["id=register_tab", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=.login-box:nth-child(3) #register_tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[@id='register_tab']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[9]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "797e1043-bc33-4dfe-8bb5-fcf96f44a0cb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=register_tab",
+      "targets": [
+        ["id=register_tab", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=.login-box:nth-child(3) #register_tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[@id='register_tab']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[9]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7a29120-b802-4a51-a5c8-27e5f5b47b6f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "linkText=Вход с Facebook",
+      "targets": [
+        ["linkText=Вход с Facebook", "linkText"],
+        ["css=.active > #registerForm > .login-button--facebook", "css:finder"],
+        ["xpath=(//a[contains(text(),'Вход с Facebook')])[2]", "xpath:link"],
+        ["xpath=//form[@id='registerForm']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.olx.bg/account/facebooklogin/?ref%5B0%5D%5Baction%5D=myaccount&ref%5B0%5D%5Bmethod%5D=index&ref%5B1%5D%5Bparams%5D%5Bref%5D%5B0%5D%5Baction%5D=myaccount&ref%5B1%5D%5Bparams%5D%5Bref%5D%5B0%5D%5Bmethod%5D=index&ref%5B1%5D%5Baction%5D=account&ref%5B1%5D%5Bmethod%5D=index')])[2]", "xpath:href"],
+        ["xpath=//li[2]/form/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "470bb45e-3ab4-424e-9746-14dc9975f03b",
+      "comment": "",
+      "command": "echo",
+      "target": "Вход с Facebook",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd6585ed-6074-457d-9c16-2d748696b535",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Вход с Facebook",
+      "targets": [
+        ["linkText=Вход с Facebook", "linkText"],
+        ["css=.active > #registerForm > .login-button--facebook", "css:finder"],
+        ["xpath=(//a[contains(text(),'Вход с Facebook')])[2]", "xpath:link"],
+        ["xpath=//form[@id='registerForm']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.olx.bg/account/facebooklogin/?ref%5B0%5D%5Baction%5D=myaccount&ref%5B0%5D%5Bmethod%5D=index&ref%5B1%5D%5Bparams%5D%5Bref%5D%5B0%5D%5Baction%5D=myaccount&ref%5B1%5D%5Bparams%5D%5Bref%5D%5B0%5D%5Bmethod%5D=index&ref%5B1%5D%5Baction%5D=account&ref%5B1%5D%5Bmethod%5D=index')])[2]", "xpath:href"],
+        ["xpath=//li[2]/form/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c699b6df-30e7-47a1-98f4-5f5510a9b74f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login-box-logout > .link > span",
+      "targets": [
+        ["css=#login-box-logout > .link > span", "css:finder"],
+        ["xpath=//a[@id='login-box-logout']/span/span", "xpath:idRelative"],
+        ["xpath=//ul[3]/li/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c0e7e5df-7ec6-4c1e-b9c4-7881cf871a07",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a36c46b6-6e56-4522-949b-5792729b16dd",
+    "name": "TC_FUNCT_Reg_04",
+    "commands": [{
+      "id": "60f8298e-96d2-424a-9af8-5550cc4070ed",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "daaa40b1-4baf-422e-9718-bbdf501a4ead",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54c92c36-3797-412b-9c3e-1db1cab10faf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link:nth-child(2) > strong",
+      "targets": [
+        ["css=.link:nth-child(2) > strong", "css:finder"],
+        ["xpath=//a[@id='topLoginLink']/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Моят профил')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0785a51-30b5-4c13-8157-27c883882df6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=register_tab",
+      "targets": [
+        ["id=register_tab", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=.login-box:nth-child(3) #register_tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[@id='register_tab']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[9]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "074f6a29-bc0c-41cc-acdb-0699d9b0b876",
+      "comment": "",
+      "command": "click",
+      "target": "id=register_tab",
+      "targets": [
+        ["id=register_tab", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=.login-box:nth-child(3) #register_tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[@id='register_tab']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[9]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad4488fc-cc0b-4d99-8d15-1d734e959fd5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=register_tab",
+      "targets": [
+        ["id=register_tab", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=.login-box:nth-child(3) #register_tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[@id='register_tab']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[9]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d92d0011-9bfa-4b9e-a83f-bd975afb50a4",
+      "comment": "",
+      "command": "click",
+      "target": "id=userEmailRegister",
+      "targets": [
+        ["id=userEmailRegister", "id"],
+        ["name=register[email]", "name"],
+        ["css=.active #userEmailRegister", "css:finder"],
+        ["xpath=//input[@id='userEmailRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "043cdbb1-8749-4a70-b0fa-8b496bd20089",
+      "comment": "",
+      "command": "type",
+      "target": "css=.active #userEmailRegister",
+      "targets": [
+        ["id=userEmailRegister", "id"],
+        ["name=register[email]", "name"],
+        ["css=.active #userEmailRegister", "css:finder"],
+        ["xpath=//input[@id='userEmailRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "proben10UK@mail.bg"
+    }, {
+      "id": "cb5c81c8-5c48-456f-a7e8-e9b216b18449",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPassRegister",
+      "targets": [
+        ["id=userPassRegister", "id"],
+        ["name=register[password]", "name"],
+        ["css=.error #userPassRegister", "css:finder"],
+        ["xpath=//input[@id='userPassRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34b8dc07-51cc-4509-a094-f6cad10ecbd0",
+      "comment": "",
+      "command": "type",
+      "target": "id=userPassRegister",
+      "targets": [
+        ["id=userPassRegister", "id"],
+        ["name=register[password]", "name"],
+        ["css=.active #userPassRegister", "css:finder"],
+        ["xpath=//input[@id='userPassRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "TovaE!12Nov"
+    }, {
+      "id": "966a44c1-cbcf-4c40-86f7-adde253ac8e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=button_register",
+      "targets": [
+        ["id=button_register", "id"],
+        ["css=.active #button_register", "css:finder"],
+        ["xpath=//button[@id='button_register']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "19cbbd60-f831-49e7-ba14-bf45adbef05c",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.login-box-confirm__title",
+      "targets": [
+        ["css=.login-box-confirm__title", "css:finder"],
+        ["xpath=//div[@id='innerLayout']/section/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div/div", "xpath:position"]
+      ],
+      "value": "Трябва да активираш акаунта си"
+    }]
+  }, {
+    "id": "c9ad8372-87e4-4d46-ba92-a76b04a19b2e",
+    "name": "TC_FUNCT_Reg_05",
+    "commands": [{
+      "id": "4e39c477-f4f2-42b8-955e-8ac8f7275b5a",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a8030b30-b6a8-4bc2-9518-8642d45493e6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0ce34f1e-5fbb-4629-b784-b779649272f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link:nth-child(2) > strong",
+      "targets": [
+        ["css=.link:nth-child(2) > strong", "css:finder"],
+        ["xpath=//a[@id='topLoginLink']/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Моят профил')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8ec47be-ae46-4bcc-be0e-6c4515b81318",
+      "comment": "",
+      "command": "click",
+      "target": "id=register_tab",
+      "targets": [
+        ["id=register_tab", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=.login-box:nth-child(3) #register_tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[@id='register_tab']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[9]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ab42d0a-e6ce-4296-b6af-344bb98d37ca",
+      "comment": "",
+      "command": "click",
+      "target": "id=userEmailRegister",
+      "targets": [
+        ["id=userEmailRegister", "id"],
+        ["name=register[email]", "name"],
+        ["css=.active #userEmailRegister", "css:finder"],
+        ["xpath=//input[@id='userEmailRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a11c661-47c1-4efd-a71a-4b2ea23e7aa4",
+      "comment": "",
+      "command": "type",
+      "target": "id=userEmailRegister",
+      "targets": [
+        ["id=userEmailRegister", "id"],
+        ["name=register[email]", "name"],
+        ["css=.active #userEmailRegister", "css:finder"],
+        ["xpath=//input[@id='userEmailRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "proben10UK@mail.bg"
+    }, {
+      "id": "e71bbcf0-a76e-4719-bf47-1d767105ddda",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPassRegister",
+      "targets": [
+        ["id=userPassRegister", "id"],
+        ["name=register[password]", "name"],
+        ["css=.active #userPassRegister", "css:finder"],
+        ["xpath=//input[@id='userPassRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3119e55a-2e0e-4311-bd46-a696ff71fa69",
+      "comment": "",
+      "command": "type",
+      "target": "id=userPassRegister",
+      "targets": [
+        ["id=userPassRegister", "id"],
+        ["name=register[password]", "name"],
+        ["css=.active #userPassRegister", "css:finder"],
+        ["xpath=//input[@id='userPassRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "asd2Z"
+    }, {
+      "id": "eccd527c-dd24-42d3-a29d-60ce89a1e1bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=registerForm",
+      "targets": [
+        ["id=registerForm", "id"],
+        ["css=.active > #registerForm", "css:finder"],
+        ["xpath=//form[@id='registerForm']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/ul/li[2]/form", "xpath:idRelative"],
+        ["xpath=//li[2]/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2da063f-06a3-4d28-ab1d-020364b1ebd7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.error:nth-child(1)",
+      "targets": [
+        ["css=.error:nth-child(1)", "css:finder"],
+        ["xpath=//small[@id='se_emailError']/div/label", "xpath:idRelative"],
+        ["xpath=//small/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Моля, въведете поне 8 символа.')]", "xpath:innerText"]
+      ],
+      "value": "Моля, въведете поне 8 символа."
+    }]
+  }, {
+    "id": "add13be3-2e3a-47fa-bbfb-b477bef8b8e4",
+    "name": "TC_FUNCT_Reg_06",
+    "commands": [{
+      "id": "aafc2075-b2f9-45bd-9b50-09fe687638e6",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "05e243a7-00e0-4ac8-86ae-20d705a0cbe9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bba78e0-ce9b-4ac0-a1bd-85295c8e61c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link:nth-child(2) > strong",
+      "targets": [
+        ["css=.link:nth-child(2) > strong", "css:finder"],
+        ["xpath=//a[@id='topLoginLink']/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Моят профил')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ef952ab-3ccf-4a38-ba73-6b1e03b928ed",
+      "comment": "",
+      "command": "click",
+      "target": "id=register_tab",
+      "targets": [
+        ["id=register_tab", "id"],
+        ["linkText=Регистрация", "linkText"],
+        ["css=.login-box:nth-child(3) #register_tab", "css:finder"],
+        ["xpath=//a[contains(text(),'Регистрация')]", "xpath:link"],
+        ["xpath=//a[@id='register_tab']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/nav/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[9]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Регистрация')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2283a853-51ba-48d6-8c0e-93e3c46c19ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=userEmailRegister",
+      "targets": [
+        ["id=userEmailRegister", "id"],
+        ["name=register[email]", "name"],
+        ["css=.active #userEmailRegister", "css:finder"],
+        ["xpath=//input[@id='userEmailRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d99f1ae-cc00-439f-a1f9-f934522fb418",
+      "comment": "",
+      "command": "type",
+      "target": "id=userEmailRegister",
+      "targets": [
+        ["id=userEmailRegister", "id"],
+        ["name=register[email]", "name"],
+        ["css=.active #userEmailRegister", "css:finder"],
+        ["xpath=//input[@id='userEmailRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "proben10UK@mail.bg"
+    }, {
+      "id": "b39faae3-836d-4aaa-8e47-8e8cdee5ec23",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPassRegister",
+      "targets": [
+        ["id=userPassRegister", "id"],
+        ["name=register[password]", "name"],
+        ["css=.active #userPassRegister", "css:finder"],
+        ["xpath=//input[@id='userPassRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "44638eef-c1b1-4a52-9da9-2a5acc749509",
+      "comment": "",
+      "command": "type",
+      "target": "id=userPassRegister",
+      "targets": [
+        ["id=userPassRegister", "id"],
+        ["name=register[password]", "name"],
+        ["css=.active #userPassRegister", "css:finder"],
+        ["xpath=//input[@id='userPassRegister']", "xpath:attributes"],
+        ["xpath=//form[@id='registerForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "aааааааа"
+    }, {
+      "id": "05a8c44a-e71c-401f-830f-4e5bf39b9a6d",
+      "comment": "",
+      "command": "click",
+      "target": "id=registerForm",
+      "targets": [
+        ["id=registerForm", "id"],
+        ["css=.active > #registerForm", "css:finder"],
+        ["xpath=//form[@id='registerForm']", "xpath:attributes"],
+        ["xpath=//div[@id='innerLayout']/section/div[3]/div/ul/li[2]/form", "xpath:idRelative"],
+        ["xpath=//li[2]/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eea7289a-597f-4dd3-9a91-a0e30cdfd5ea",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.error:nth-child(1)",
+      "targets": [
+        ["css=.error:nth-child(1)", "css:finder"],
+        ["xpath=//small[@id='se_emailError']/div/label", "xpath:idRelative"],
+        ["xpath=//small/div/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Моля, въведете поне 8 символа.')]", "xpath:innerText"]
+      ],
+      "value": "Паролата трябва да съдържа поне една цифра, една главна и една малка буква"
+    }]
+  }, {
+    "id": "1ae8d5e6-8df9-4f9c-8464-65262ed101d7",
+    "name": "TC_FUNCT_Log_01",
+    "commands": [{
+      "id": "b5192b76-490f-4608-9eae-7a34fea3250c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca318206-4759-43d0-bdd1-670dae2a653e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e93d973c-8adc-4f03-9782-d6e35b3ecf91",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link:nth-child(2) > strong",
+      "targets": [
+        ["css=.link:nth-child(2) > strong", "css:finder"],
+        ["xpath=//a[@id='topLoginLink']/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Моят профил')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "95d7e955-e48e-4ffe-929b-510c89ea8fc4",
+      "comment": "",
+      "command": "click",
+      "target": "id=userEmail",
+      "targets": [
+        ["id=userEmail", "id"],
+        ["name=login[email]", "name"],
+        ["css=.active > .focusbox > #userEmail", "css:finder"],
+        ["xpath=//input[@id='userEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b756288-5a44-472f-a982-8b432a34f54d",
+      "comment": "",
+      "command": "type",
+      "target": "css=.active > .focusbox > #userEmail",
+      "targets": [
+        ["id=userEmail", "id"],
+        ["name=login[email]", "name"],
+        ["css=.active > .focusbox > #userEmail", "css:finder"],
+        ["xpath=//input[@id='userEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "prouchvam@gmail.com"
+    }, {
+      "id": "135e35e0-5a99-45d9-ba32-c4eb5f932001",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=login[password]", "name"],
+        ["css=.active > .focusbox > #userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e643358-6889-4a45-b503-f62138147ccf",
+      "comment": "",
+      "command": "type",
+      "target": "css=.active > .focusbox > #userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=login[password]", "name"],
+        ["css=.active > .focusbox > #userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "proben10UK"
+    }, {
+      "id": "ee25a50d-ed34-4ecc-aee4-4dddc664ffff",
+      "comment": "",
+      "command": "click",
+      "target": "id=se_userLogin",
+      "targets": [
+        ["id=se_userLogin", "id"],
+        ["css=.login-box:nth-child(3) #se_userLogin", "css:finder"],
+        ["xpath=//button[@id='se_userLogin']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Вход')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4bea642-5742-499e-a028-f645311ef7a8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login-box-logout > .link > span",
+      "targets": [
+        ["css=#login-box-logout > .link > span", "css:finder"],
+        ["xpath=//a[@id='login-box-logout']/span/span", "xpath:idRelative"],
+        ["xpath=//ul[3]/li/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e55a098-ad30-4d88-be48-332decfba0a6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "4e6e15a1-ccfe-4116-8f6d-06118279b99b",
+    "name": "TC_FUNCT_Log_05",
+    "commands": [{
+      "id": "daf7dd85-5c52-439c-bbca-e4c943ede7d7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d0dbf4d-144d-4766-9db7-c8071f7d74ce",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3704fc81-d444-4cdb-933c-eb9dd66591db",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link:nth-child(2) > strong",
+      "targets": [
+        ["css=.link:nth-child(2) > strong", "css:finder"],
+        ["xpath=//a[@id='topLoginLink']/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Моят профил')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8be87e9-f713-4188-a3d7-1c4a29da96ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=userEmail",
+      "targets": [
+        ["id=userEmail", "id"],
+        ["name=login[email]", "name"],
+        ["css=.active > .focusbox > #userEmail", "css:finder"],
+        ["xpath=//input[@id='userEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69f3ad57-7755-4024-b4db-2a3e9c870154",
+      "comment": "",
+      "command": "type",
+      "target": "id=userEmail",
+      "targets": [
+        ["id=userEmail", "id"],
+        ["name=login[email]", "name"],
+        ["css=.active > .focusbox > #userEmail", "css:finder"],
+        ["xpath=//input[@id='userEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "prouchvam@gmail.com"
+    }, {
+      "id": "b70de4af-4e31-4aca-9bd4-31827e345a9e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Забравена парола?",
+      "targets": [
+        ["linkText=Забравена парола?", "linkText"],
+        ["css=.login-box:nth-child(3) .login-form__lostpassword", "css:finder"],
+        ["xpath=//a[contains(text(),'Забравена парола?')]", "xpath:link"],
+        ["xpath=//form[@id='loginForm']/fieldset/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.olx.bg/account/forgotpassword/?bs=login_page_forgot_password_button')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Забравена парола?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34ff7405-8570-4e0e-8ea1-2a4d4fe72d42",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74291c83-f20e-45f2-a4f7-0bc18d7434c2",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='username']",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "prouchvam@gmail.com"
+    }, {
+      "id": "3b9912ff-8bf0-4aea-95ab-81fac4ff0849",
+      "comment": "",
+      "command": "click",
+      "target": "id=se_userSignIn",
+      "targets": [
+        ["id=se_userSignIn", "id"],
+        ["css=#se_userSignIn", "css:finder"],
+        ["xpath=//button[@id='se_userSignIn']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Промени')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72a338cb-b9aa-42d5-be02-593d3ffc0cff",
+      "comment": "",
+      "command": "click",
+      "target": "id=code",
+      "targets": [
+        ["id=code", "id"],
+        ["name=code", "name"],
+        ["css=#code", "css:finder"],
+        ["xpath=//input[@id='code']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0115a321-063a-48a0-8119-831e74284c71",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=code",
+      "targets": [
+        ["id=code", "id"],
+        ["name=code", "name"],
+        ["css=#code", "css:finder"],
+        ["xpath=//input[@id='code']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4911a1c5-8f48-408f-b57f-fab7abdb8c27",
+      "comment": "",
+      "command": "echo",
+      "target": "Enter code",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fc4afb5e-9ed1-4630-a57e-99653e4f238b",
+      "comment": "",
+      "command": "type",
+      "target": "id=code",
+      "targets": [
+        ["id=code", "id"],
+        ["name=code", "name"],
+        ["css=#code", "css:finder"],
+        ["xpath=//input[@id='code']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "346672"
+    }, {
+      "id": "c985b905-883c-4506-a173-1b818e049c21",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1204fc0f-da4f-410a-b590-f4deeef1fa21",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a01b4b1-1b21-48ed-b7e1-e23e24791ea1",
+      "comment": "",
+      "command": "echo",
+      "target": "Enter new password",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c436c643-6f0d-43a6-9521-588af052bcf0",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Abc61223"
+    }, {
+      "id": "fdaeabe2-2681-45d9-bc07-957d251c456d",
+      "comment": "",
+      "command": "click",
+      "target": "id=se_userSignIn",
+      "targets": [
+        ["id=se_userSignIn", "id"],
+        ["css=#se_userSignIn", "css:finder"],
+        ["xpath=//button[@id='se_userSignIn']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/button", "xpath:idRelative"],
+        ["xpath=//form[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Промени')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6824b2b-caab-43c3-b5c8-b897ae8aa65e",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.cc914 > .error",
+      "targets": [
+        ["css=.cc914 > .error", "css:finder"],
+        ["xpath=//form[@id='mainForm']/div/div[2]/div/small/label", "xpath:idRelative"],
+        ["xpath=//small/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Грешен код за потвърждение')]", "xpath:innerText"]
+      ],
+      "value": "Грешен код за потвърждение"
+    }]
+  }, {
+    "id": "83c29c0c-e374-431c-bc14-4225e6d6353a",
+    "name": "TC_FUNCT_Log_04",
+    "commands": [{
+      "id": "30bae10f-fca7-40bf-99ef-c3861d7cb091",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e40717b0-61ad-4e49-a97e-f3fa734e4fd4",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b264058-db47-42b1-b226-c0bc5846c72c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link:nth-child(2) > strong",
+      "targets": [
+        ["css=.link:nth-child(2) > strong", "css:finder"],
+        ["xpath=//a[@id='topLoginLink']/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Моят профил')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba595512-30ab-45a7-900a-7bdeccab3dd5",
+      "comment": "",
+      "command": "store",
+      "target": "prouchvam@gmail.com",
+      "targets": [],
+      "value": "loginmail"
+    }, {
+      "id": "e8895cc3-00e8-4f8d-b731-71a4ae1218f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=userEmail",
+      "targets": [
+        ["id=userEmail", "id"],
+        ["name=login[email]", "name"],
+        ["css=.active > .focusbox > #userEmail", "css:finder"],
+        ["xpath=//input[@id='userEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c96e6256-ff6f-45f5-8ee6-e21aa9288b7f",
+      "comment": "",
+      "command": "type",
+      "target": "id=userEmail",
+      "targets": [
+        ["id=userEmail", "id"],
+        ["name=login[email]", "name"],
+        ["css=.active > .focusbox > #userEmail", "css:finder"],
+        ["xpath=//input[@id='userEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${loginmail}"
+    }, {
+      "id": "cf03dede-de16-48e5-8ef1-ca78476a0e39",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Забравена парола?",
+      "targets": [
+        ["linkText=Забравена парола?", "linkText"],
+        ["css=.login-box:nth-child(3) .login-form__lostpassword", "css:finder"],
+        ["xpath=//a[contains(text(),'Забравена парола?')]", "xpath:link"],
+        ["xpath=//form[@id='loginForm']/fieldset/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.olx.bg/account/forgotpassword/?bs=login_page_forgot_password_button')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Забравена парола?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "254b1569-8667-4843-ab7b-ad0b708c2d9b",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.login-box__title",
+      "targets": [
+        ["css=.login-box__title", "css:finder"],
+        ["xpath=//div[@id='innerLayout']/section/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Забрави ли паролата си?')]", "xpath:innerText"]
+      ],
+      "value": "Забрави ли паролата си?"
+    }, {
+      "id": "9de27f77-a71b-4333-abea-ec73dc615642",
+      "comment": "",
+      "command": "click",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f6842d4-7e06-4f47-a718-602571dc9990",
+      "comment": "",
+      "command": "type",
+      "target": "id=username",
+      "targets": [
+        ["id=username", "id"],
+        ["name=username", "name"],
+        ["css=#username", "css:finder"],
+        ["xpath=//input[@id='username']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${loginmail}"
+    }, {
+      "id": "fab1e2ba-4c35-4067-a530-087e3c64143f",
+      "comment": "",
+      "command": "click",
+      "target": "id=se_userSignIn",
+      "targets": [
+        ["id=se_userSignIn", "id"],
+        ["css=#se_userSignIn", "css:finder"],
+        ["xpath=//button[@id='se_userSignIn']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Промени')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e28139ef-1ac1-4331-8421-d8fb63078acf",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.login-box__title",
+      "targets": [
+        ["css=.login-box__title", "css:finder"],
+        ["xpath=//div[@id='innerLayout']/section/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Напиши кода и нова парола')]", "xpath:innerText"]
+      ],
+      "value": "Напиши кода и нова парола"
+    }, {
+      "id": "0e7bf81a-66c7-43d5-8a0e-548ad7d8bd54",
+      "comment": "",
+      "command": "click",
+      "target": "id=code",
+      "targets": [
+        ["id=code", "id"],
+        ["name=code", "name"],
+        ["css=#code", "css:finder"],
+        ["xpath=//input[@id='code']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3bfb307a-add3-459a-9b71-66ca83219cfa",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=code",
+      "targets": [
+        ["id=code", "id"],
+        ["name=code", "name"],
+        ["css=#code", "css:finder"],
+        ["xpath=//input[@id='code']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52e86e72-f319-428e-94a1-b3a172799496",
+      "comment": "",
+      "command": "echo",
+      "target": "Enter code",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3276cb2a-5f0c-4ac1-8ce2-ba328aaadaa3",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc10671b-69b6-433d-a946-ba678545301f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "id=code",
+      "targets": [
+        ["id=code", "id"],
+        ["name=code", "name"],
+        ["css=#code", "css:finder"],
+        ["xpath=//input[@id='code']", "xpath:attributes"],
+        ["xpath=//form[@id='mainForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4d9c4d2-61e8-4aa6-b459-ad7b02854431",
+      "comment": "",
+      "command": "echo",
+      "target": "Enter new password",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "2c6b4a9e-d451-40e1-8a17-8c1e9b1abef1",
+    "name": "TC_FUNCT_Log_02",
+    "commands": [{
+      "id": "80f3204b-7687-4a39-9c27-d8a6e35b8b71",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eff5dd88-bb54-4d44-a64a-4b58ad320668",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0051b7e5-b76f-4fc0-be10-c5e86cb49cba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link:nth-child(2) > strong",
+      "targets": [
+        ["css=.link:nth-child(2) > strong", "css:finder"],
+        ["xpath=//a[@id='topLoginLink']/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Моят профил')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f0cb68e-1cd2-4ef3-a9bf-23f40d24072c",
+      "comment": "",
+      "command": "click",
+      "target": "id=userEmail",
+      "targets": [
+        ["id=userEmail", "id"],
+        ["name=login[email]", "name"],
+        ["css=.active > .focusbox > #userEmail", "css:finder"],
+        ["xpath=//input[@id='userEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "287198e1-dc82-4ecd-9032-ed7e3af3f56b",
+      "comment": "",
+      "command": "type",
+      "target": "id=userEmail",
+      "targets": [
+        ["id=userEmail", "id"],
+        ["name=login[email]", "name"],
+        ["css=.active > .focusbox > #userEmail", "css:finder"],
+        ["xpath=//input[@id='userEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "prouchvam@gmail.com"
+    }, {
+      "id": "d92088f7-ad64-4f0d-be84-1bdcf098b720",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=login[password]", "name"],
+        ["css=.active > .focusbox > #userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e176417f-7fd8-40ae-a14e-a877ee52f69a",
+      "comment": "",
+      "command": "type",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=login[password]", "name"],
+        ["css=.active > .focusbox > #userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "proben10U"
+    }, {
+      "id": "1fb45de5-bd07-4854-8662-414ad34d79fa",
+      "comment": "",
+      "command": "click",
+      "target": "id=se_userLogin",
+      "targets": [
+        ["id=se_userLogin", "id"],
+        ["css=.login-box:nth-child(3) #se_userLogin", "css:finder"],
+        ["xpath=//button[@id='se_userLogin']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Вход')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09ec5390-5a02-46df-ae80-c0e53c469832",
+      "comment": "",
+      "command": "assertText",
+      "target": "xpath=//p[contains(.,'Невалиден имейл или парола')]",
+      "targets": [
+        ["css=.errorbox > p", "css:finder"],
+        ["xpath=//form[@id='loginForm']/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Невалиден имейл или парола')]", "xpath:innerText"]
+      ],
+      "value": "Невалидна парола"
+    }]
+  }, {
+    "id": "ff64c52a-e105-473f-904b-b8aec1ad1c51",
+    "name": "TC_FUNCT_Log_03",
+    "commands": [{
+      "id": "60324580-e1c0-4481-af06-fbaed124c1a7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81a8bf2f-8909-4453-908c-a70590597fa7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67ea64a3-75ce-4c46-990b-5e8035a4861c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link:nth-child(2) > strong",
+      "targets": [
+        ["css=.link:nth-child(2) > strong", "css:finder"],
+        ["xpath=//a[@id='topLoginLink']/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Моят профил')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a997daf5-49fe-4683-a968-6fba77f119f8",
+      "comment": "",
+      "command": "click",
+      "target": "id=userEmail",
+      "targets": [
+        ["id=userEmail", "id"],
+        ["name=login[email]", "name"],
+        ["css=.active > .focusbox > #userEmail", "css:finder"],
+        ["xpath=//input[@id='userEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23332bd5-74df-424a-b1d6-009a2d692a2b",
+      "comment": "",
+      "command": "type",
+      "target": "id=userEmail",
+      "targets": [
+        ["id=userEmail", "id"],
+        ["name=login[email]", "name"],
+        ["css=.active > .focusbox > #userEmail", "css:finder"],
+        ["xpath=//input[@id='userEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "prouchva@gmail.com"
+    }, {
+      "id": "24baab6c-4277-4dc8-91e0-58e67078791c",
+      "comment": "",
+      "command": "click",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=login[password]", "name"],
+        ["css=.active > .focusbox > #userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be29ad4c-930c-4971-8a69-cfe39c378c7d",
+      "comment": "",
+      "command": "type",
+      "target": "id=userPass",
+      "targets": [
+        ["id=userPass", "id"],
+        ["name=login[password]", "name"],
+        ["css=.active > .focusbox > #userPass", "css:finder"],
+        ["xpath=//input[@id='userPass']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "proben10UK"
+    }, {
+      "id": "4eb74421-f500-42e6-b4e6-b39fbdc84780",
+      "comment": "",
+      "command": "click",
+      "target": "id=se_userLogin",
+      "targets": [
+        ["id=se_userLogin", "id"],
+        ["css=.login-box:nth-child(3) #se_userLogin", "css:finder"],
+        ["xpath=//button[@id='se_userLogin']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Вход')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77c89de8-59cf-46a5-a095-9c234610196a",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.errorbox > p",
+      "targets": [
+        ["css=.errorbox > p", "css:finder"],
+        ["xpath=//form[@id='loginForm']/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Невалиден имейл или парола')]", "xpath:innerText"]
+      ],
+      "value": "Невалиден имейл"
+    }]
+  }, {
+    "id": "f5cd4f8c-3c02-42ee-b196-39ad296a8836",
+    "name": "TC_FUNCT_Log_06",
+    "commands": [{
+      "id": "b3a96e12-c040-450e-94d7-78fc62b46035",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4849f58a-16bf-4adf-852f-abdc62410380",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3711cbcb-e0ec-4ff5-a03a-8b254e1412a3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.link:nth-child(2) > strong",
+      "targets": [
+        ["css=.link:nth-child(2) > strong", "css:finder"],
+        ["xpath=//a[@id='topLoginLink']/span/strong", "xpath:idRelative"],
+        ["xpath=//span/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'Моят профил')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92c1403e-af2b-4c91-9359-6d1470392efd",
+      "comment": "",
+      "command": "click",
+      "target": "id=fblogin",
+      "targets": [
+        ["id=fblogin", "id"],
+        ["linkText=Вход с Facebook", "linkText"],
+        ["css=.login-box:nth-child(3) #fblogin", "css:finder"],
+        ["xpath=//a[contains(text(),'Вход с Facebook')]", "xpath:link"],
+        ["xpath=//a[@id='fblogin']", "xpath:attributes"],
+        ["xpath=//form[@id='loginForm']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.olx.bg/account/facebooklogin/?ref%5B0%5D%5Baction%5D=myaccount&ref%5B0%5D%5Bmethod%5D=index&ref%5B1%5D%5Bparams%5D%5Bref%5D%5B0%5D%5Baction%5D=myaccount&ref%5B1%5D%5Bparams%5D%5Bref%5D%5B0%5D%5Bmethod%5D=index&ref%5B1%5D%5Baction%5D=account&ref%5B1%5D%5Bmethod%5D=index')]", "xpath:href"],
+        ["xpath=//form/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Вход с Facebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4758357-70f8-4731-bc76-959c1af14421",
+      "comment": "",
+      "command": "click",
+      "target": "css=#login-box-logout > .link > span",
+      "targets": [
+        ["css=#login-box-logout > .link > span", "css:finder"],
+        ["xpath=//a[@id='login-box-logout']/span/span", "xpath:idRelative"],
+        ["xpath=//ul[3]/li/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4a228fe6-a530-471a-a628-47134c540e37",
+    "name": "TC_FUNCT_Search_06",
+    "commands": [{
+      "id": "02f4283c-71c1-4226-aea6-8ccb04e87de0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "64be2c23-f6c6-4b25-b8d1-076e8a55e9d9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bb43486-c28f-45e3-81ca-14bc0a017793",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=postNewAdLink",
+      "targets": [
+        ["id=postNewAdLink", "id"],
+        ["linkText=Добави обява", "linkText"],
+        ["css=#postNewAdLink", "css:finder"],
+        ["xpath=//a[@id='postNewAdLink']", "xpath:attributes"],
+        ["xpath=//header[@id='header-container']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.olx.bg/adding/?bs=homepage_adding')]", "xpath:href"],
+        ["xpath=//header/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Добави обява')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "92a7eb94-88ee-4408-b09f-5045c2e46ae1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=postNewAdLink",
+      "targets": [
+        ["id=postNewAdLink", "id"],
+        ["linkText=Добави обява", "linkText"],
+        ["css=#postNewAdLink", "css:finder"],
+        ["xpath=//a[@id='postNewAdLink']", "xpath:attributes"],
+        ["xpath=//header[@id='header-container']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.olx.bg/adding/?bs=homepage_adding')]", "xpath:href"],
+        ["xpath=//header/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Добави обява')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "12207f76-03aa-45e2-ac91-aeea4fe562f6",
+      "comment": "",
+      "command": "store",
+      "target": "безвреден телефон",
+      "targets": [],
+      "value": "product"
+    }, {
+      "id": "eaecdd7f-66d6-4626-8cd1-8693b4ca6194",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "006e885d-1c31-42af-9e58-18016556e0c5",
+      "comment": "",
+      "command": "type",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${product}"
+    }, {
+      "id": "f9ed1e09-80ae-410f-a1aa-531d24e98a29",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-searchmain",
+      "targets": [
+        ["id=submit-searchmain", "id"],
+        ["css=#submit-searchmain", "css:finder"],
+        ["xpath=//input[@id='submit-searchmain']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e83feeed-57e4-4e49-b877-e9360d1f691e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=q",
+      "targets": [
+        ["css=q", "css:finder"],
+        ["xpath=//section[@id='body-container']/div[2]/div/div[2]/h1/q", "xpath:idRelative"],
+        ["xpath=//q", "xpath:position"],
+        ["xpath=//q[contains(.,'безвреден телефон')]", "xpath:innerText"]
+      ],
+      "value": "\"${product}\""
+    }, {
+      "id": "4925e7b0-a388-46ec-9ccc-fa22623a1924",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "css=.emptynew > p",
+      "targets": [
+        ["css=.emptynew > p", "css:finder"],
+        ["xpath=//section[@id='body-container']/div[2]/div/div[2]/p", "xpath:idRelative"],
+        ["xpath=//div[2]/p", "xpath:position"]
+      ],
+      "value": "Не намерихме обяви по твоето търсене."
+    }]
+  }, {
+    "id": "90d2989b-7706-4f2c-9d94-7e494628e97d",
+    "name": "TC_FUNCT_Search_01",
+    "commands": [{
+      "id": "4a734c74-1448-4ab9-ad79-2b86b038826f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f2b5ff0d-8b2d-457b-9acf-3d43f30c2a48",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1054x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fde23760-9516-4a98-999e-1a49b9058cc5",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab923e3e-5821-45bd-92cb-fb313781c337",
+      "comment": "",
+      "command": "type",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "книга"
+    }, {
+      "id": "482839a5-e34d-4fc9-b4e3-cb81b701c285",
+      "comment": "",
+      "command": "click",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee6d5f23-7282-4ac7-8626-9d009dafbab5",
+      "comment": "",
+      "command": "type",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "София"
+    }, {
+      "id": "7ee14140-b327-4b55-8eaa-61d1af7ee87c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.color-9 > strong",
+      "targets": [
+        ["css=.color-9 > strong", "css:finder"],
+        ["xpath=//ul[@id='autosuggest-geo-ul']/li/a/span[2]/strong", "xpath:idRelative"],
+        ["xpath=//span[2]/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53985a43-7e10-4c0d-a433-7e459dae2e44",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-searchmain",
+      "targets": [
+        ["id=submit-searchmain", "id"],
+        ["css=#submit-searchmain", "css:finder"],
+        ["xpath=//input[@id='submit-searchmain']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99c79ee8-2e4d-4ba2-acd3-de4bbd6fe6a7",
+      "comment": "",
+      "command": "click",
+      "target": "id=main-category-choose-label",
+      "targets": [
+        ["id=main-category-choose-label", "id"],
+        ["css=#main-category-choose-label", "css:finder"],
+        ["xpath=//span[@id='main-category-choose-label']", "xpath:attributes"],
+        ["xpath=//a[@id='choosecat']/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "187eb223-3e35-4eb6-aa39-83e4ad9cf9ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=a-category-632",
+      "targets": [
+        ["id=a-category-632", "id"],
+        ["css=.hover > #a-category-632", "css:finder"],
+        ["xpath=//a[@id='a-category-632']", "xpath:attributes"],
+        ["xpath=//ul[@id='categorySelectList']/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '')])[43]", "xpath:href"],
+        ["xpath=//div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c2bacc4-e5aa-4c98-ba0a-a0ecde8f5cc0",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 3",
+      "targets": [],
+      "value": "i"
+    }, {
+      "id": "4242c50e-3fcd-4e9c-bb70-b3acdf02f600",
+      "comment": "",
+      "command": "while",
+      "target": "${i}<7",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "984d5eab-5847-456b-a8ff-923b3d46bd85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wrap:nth-child(${i}) .title-cell:nth-child(2) strong:nth-child(1)",
+      "targets": [
+        ["css=.wrap:nth-child(3) .title-cell:nth-child(2) strong:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='offers_table']/tbody/tr[3]/td/div/table/tbody/tr/td[2]/div/h3/a/strong", "xpath:idRelative"],
+        ["xpath=//h3/a/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'лот 12бр електронни книги за части Kobo Pocketbook kindle киндъл nook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "683949e7-7792-4644-ac64-46583b0378e2",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.inline:nth-child(2) > .link > span",
+      "targets": [],
+      "value": "Електроника гр. София"
+    }, {
+      "id": "94dbb17c-e770-4bfb-8d29-748afdf53d1c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//table[@id='breadcrumbTop']/tbody/tr/td/a/span/span",
+      "targets": [
+        ["css=.prev-link > .inlblk > span", "css:finder"],
+        ["xpath=//table[@id='breadcrumbTop']/tbody/tr/td/a/span/span", "xpath:idRelative"],
+        ["xpath=//span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "32e17f87-259f-45e4-8e94-27a3c11baea8",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${i}+1",
+      "targets": [],
+      "value": "i"
+    }, {
+      "id": "f56f8cc3-e2e6-46e5-8c63-f82b4ee03728",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ee8f4ce6-c8fb-42c8-a116-193870f064f9",
+    "name": "TC_FUNCT_Search_07",
+    "commands": [{
+      "id": "c4fb1b02-025f-4df9-a7b3-63bb1765d083",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f865f1f8-5fab-41b3-b6c8-7d53ad4fd87b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1057x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eade55a7-7513-48e9-a45e-f7ecf4149e22",
+      "comment": "",
+      "command": "type",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "касетофон"
+    }, {
+      "id": "8c3ceb43-fe1a-4bb6-86ca-f1428dbbb43f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "86ca630d-6a48-448a-b05c-99a75b045d93",
+      "comment": "",
+      "command": "click",
+      "target": "css=.last > .icon",
+      "targets": [
+        ["css=.last > .icon", "css:finder"],
+        ["xpath=//fieldset[@id='paramsListOpt']/div/div[3]/label", "xpath:idRelative"],
+        ["xpath=//div[3]/label", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a163c7c-1c49-422b-b2e0-6f1c85a3b401",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef76a9a9-70b3-4d79-b70b-97804aa25004",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=tbody:nth-child(1) > .wrap:nth-child(3) .promo-label:nth-child(1)",
+      "targets": [],
+      "value": "Сигурна доставка"
+    }]
+  }, {
+    "id": "816460d3-c4f3-49e2-aa4b-c2aa9b23b0b2",
+    "name": "TC_FUNCT_Fav_01",
+    "commands": [{
+      "id": "d852d441-ebae-4744-b147-42fde884e5d7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca6f13ef-b326-4321-b1c9-14a6421d345f",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f726d9f3-6f4f-486b-ae45-a1dcf43e3804",
+      "comment": "",
+      "command": "store",
+      "target": "колело",
+      "targets": [],
+      "value": "product1"
+    }, {
+      "id": "75258945-2377-4643-9c6c-4faa3671e5ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${product1}"
+    }, {
+      "id": "f045c3fb-53f7-46bd-9334-2c2908f10316",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2b869087-c4dd-4304-884e-0a9dbcf31b29",
+      "comment": "",
+      "command": "click",
+      "target": "css=#saveSearchCriteriaTop > .link > span",
+      "targets": [
+        ["css=#saveSearchCriteriaTop > .link > span", "css:finder"],
+        ["xpath=//a[@id='saveSearchCriteriaTop']/span/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "27f6d75b-0a7b-4f74-938f-1f0d46c555b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#observed-search-link > i",
+      "targets": [
+        ["css=#observed-search-link > i", "css:finder"],
+        ["xpath=//a[@id='observed-search-link']/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eff2ea71-6a2b-4837-8dc8-fd4fe86b1bce",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.is-query > .block",
+      "targets": [
+        ["css=.is-query > .block", "css:finder"],
+        ["xpath=//section[@id='body-container']/div/div/div[2]/div/div[2]/div/div[2]/p/span[2]", "xpath:idRelative"],
+        ["xpath=//p/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'колело')]", "xpath:innerText"]
+      ],
+      "value": "favouriteProduct"
+    }, {
+      "id": "10b670d0-1a09-44a8-b842-96bc0c1b0e9b",
+      "comment": "",
+      "command": "if",
+      "target": "${product1} == ${favouriteProduct}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "90424bf9-5e1a-4989-888a-888262a2bd38",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"correct product\"",
+      "targets": [],
+      "value": "output"
+    }, {
+      "id": "72f376dc-f857-4962-a0b8-ef79280f473e",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c27bf2c-f45f-4f77-ba1d-c0f15aa513ad",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"incorrect product\"",
+      "targets": [],
+      "value": "output"
+    }, {
+      "id": "76fa6b87-83ab-4ffb-b6a4-9a91e1a0204f",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cd4be20d-6311-4a5c-a8c4-c5b6217ffa1e",
+      "comment": "",
+      "command": "assert",
+      "target": "output",
+      "targets": [],
+      "value": "correct product"
+    }, {
+      "id": "389dd6cb-7648-4a9c-b295-e16d813d0547",
+      "comment": "",
+      "command": "click",
+      "target": "css=.olx-website-rebranded__x",
+      "targets": [
+        ["css=.olx-website-rebranded__x", "css:finder"],
+        ["xpath=//a[@id='headerLogo']/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7930933-0a39-43a4-af00-19e6530f19c5",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0ce0ee3-412c-4198-b9f2-539f95f13fa0",
+      "comment": "",
+      "command": "store",
+      "target": "книга",
+      "targets": [],
+      "value": "product2"
+    }, {
+      "id": "c912afe9-b3ec-4f14-aa80-e86d1f6ba963",
+      "comment": "",
+      "command": "type",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${product2}"
+    }, {
+      "id": "d5a3a5f6-3941-4ad0-99b0-f5dc59ff17fb",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-searchmain",
+      "targets": [
+        ["id=submit-searchmain", "id"],
+        ["css=#submit-searchmain", "css:finder"],
+        ["xpath=//input[@id='submit-searchmain']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b8c0f45-58b0-44a6-918b-c9441f93fbfe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#saveSearchCriteriaTop > i",
+      "targets": [
+        ["css=#saveSearchCriteriaTop > i", "css:finder"],
+        ["xpath=//a[@id='saveSearchCriteriaTop']/i", "xpath:idRelative"],
+        ["xpath=//div/a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87241a0c-baff-4830-973b-db6230f7549c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#saveSearchCriteriaTop > i",
+      "targets": [
+        ["css=#saveSearchCriteriaTop > i", "css:finder"],
+        ["xpath=//a[@id='saveSearchCriteriaTop']/i", "xpath:idRelative"],
+        ["xpath=//div/a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6016668a-6b6d-4ad3-9fcd-576787da4622",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#saveSearchCriteriaTop > i",
+      "targets": [
+        ["css=#saveSearchCriteriaTop > i", "css:finder"],
+        ["xpath=//a[@id='saveSearchCriteriaTop']/i", "xpath:idRelative"],
+        ["xpath=//div/a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19c3917f-d70c-46c4-86e3-29337a2ea96f",
+      "comment": "",
+      "command": "click",
+      "target": "css=#observed-search-link > .counter",
+      "targets": [
+        ["css=#observed-search-link > .counter", "css:finder"],
+        ["xpath=//a[@id='observed-search-link']/strong", "xpath:idRelative"],
+        ["xpath=//a[2]/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "31d9e0ad-b487-4cb1-8704-593d9a59d581",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.is-query > .block",
+      "targets": [
+        ["css=.is-query > .block", "css:finder"],
+        ["xpath=//section[@id='body-container']/div/div/div[2]/div/div[2]/div/div[2]/p/span[2]", "xpath:idRelative"],
+        ["xpath=//p/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'колело')]", "xpath:innerText"]
+      ],
+      "value": "favouriteProduct"
+    }, {
+      "id": "76656f76-bdc6-4dac-99de-6ce79b87563e",
+      "comment": "",
+      "command": "if",
+      "target": "${product2} == ${favouriteProduct}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "205e809f-360b-49e7-ba5a-4af435fb0e68",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"correct product\"",
+      "targets": [],
+      "value": "output"
+    }, {
+      "id": "8a936eb0-a30d-49d5-8ca7-1ff5cc403498",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3ebe2596-2e82-4553-b0c7-bab8524f721f",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return \"incorrect product\"",
+      "targets": [],
+      "value": "output"
+    }, {
+      "id": "a3934ae5-4985-47d1-a2e6-7c686c0b7b4b",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c2888a1-bd38-47f7-876c-dd7c77e7db6b",
+      "comment": "",
+      "command": "assert",
+      "target": "output",
+      "targets": [],
+      "value": "correct product"
+    }, {
+      "id": "7e01b3dd-9699-4830-9376-63a758274aa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.olx-website-rebranded__x",
+      "targets": [
+        ["css=.olx-website-rebranded__x", "css:finder"],
+        ["xpath=//a[@id='headerLogo']/span[3]", "xpath:idRelative"],
+        ["xpath=//span[3]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "9050e8b5-13ae-4f4e-a79a-641345805788",
+    "name": "TC_FUNCT_Fav_03",
+    "commands": [{
+      "id": "7a3270d0-aac7-4c93-ae7b-4ff411e35b8f",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19f33947-b5a0-4b1c-95d6-011e32b73942",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1028x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "70bf424f-c896-49e9-9501-982afa896a4b",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd403a91-3ea8-461e-bbac-f2c205c7c2a1",
+      "comment": "",
+      "command": "type",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "пижама"
+    }, {
+      "id": "2fd8292b-231d-45c4-8dfd-2b044ef43e8c",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-searchmain",
+      "targets": [
+        ["id=submit-searchmain", "id"],
+        ["css=#submit-searchmain", "css:finder"],
+        ["xpath=//input[@id='submit-searchmain']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a4423917-da4e-47d6-91f4-dd4261a68dfc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#saveSearchCriteriaTop > .link > span",
+      "targets": [
+        ["css=#saveSearchCriteriaTop > .link > span", "css:finder"],
+        ["xpath=//a[@id='saveSearchCriteriaTop']/span/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3f9b9c0-87a5-4462-922f-b08ba39f5b79",
+      "comment": "",
+      "command": "click",
+      "target": "css=#saveSearchCriteriaTop > .link > span",
+      "targets": [
+        ["css=#saveSearchCriteriaTop > .link > span", "css:finder"],
+        ["xpath=//a[@id='saveSearchCriteriaTop']/span/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e37c04a-172f-42ed-80a1-c2c01c3d978c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#saveSearchCriteriaTop > .link > span",
+      "targets": [
+        ["css=#saveSearchCriteriaTop > .link > span", "css:finder"],
+        ["xpath=//a[@id='saveSearchCriteriaTop']/span/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "826cf566-87c5-49df-b75e-f56c1e5f1880",
+      "comment": "",
+      "command": "verfiy element present",
+      "target": "css=.msg",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d92d0c9e-1c20-46a8-9475-03f507793ad1",
+      "comment": "",
+      "command": "click",
+      "target": "css=#observed-search-link > i",
+      "targets": [
+        ["css=#observed-search-link > i", "css:finder"],
+        ["xpath=//a[@id='observed-search-link']/i", "xpath:idRelative"],
+        ["xpath=//a[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d21d4c59-05ad-4121-a305-9d5ba92b4cc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.removeObservedSearch > span",
+      "targets": [
+        ["css=.removeObservedSearch > span", "css:finder"],
+        ["xpath=//section[@id='body-container']/div/div/div[2]/div/div[2]/div/div[3]/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Премахни от наблюдавани')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f10a58b7-ab5a-41e4-9277-7688cc515675",
+    "name": "TC_FUNCT_Fav_02",
+    "commands": [{
+      "id": "30d5a542-01f2-4731-8642-8dd6d707a051",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6349fbc6-6c38-4373-b1d9-a958aeeacedb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1027x824",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b74b8842-2cbc-49eb-92c6-ab60eb8b028a",
+      "comment": "",
+      "command": "click",
+      "target": "css=#observed-search-link > .counter",
+      "targets": [
+        ["css=#observed-search-link > .counter", "css:finder"],
+        ["xpath=//a[@id='observed-search-link']/strong", "xpath:idRelative"],
+        ["xpath=//a[2]/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a400b90b-ec13-4b15-8897-bebdde4abe57",
+      "comment": "",
+      "command": "chooseOkOnNextConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b33ae16-7d34-4867-ad33-16ac47247628",
+      "comment": "",
+      "command": "click",
+      "target": "css=#clearAllObserved > span",
+      "targets": [
+        ["css=#clearAllObserved > span", "css:finder"],
+        ["xpath=//a[@id='clearAllObserved']/span", "xpath:idRelative"],
+        ["xpath=//p/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Изтрий всички запазени критерии за търсене')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9eff6b0-bfca-4e5f-a4fc-53666c2b4e90",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.pding30_0",
+      "targets": [
+        ["css=.pding30_0", "css:finder"],
+        ["xpath=//div[@id='noResults']/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Нямаш запазени търсения')]", "xpath:innerText"]
+      ],
+      "value": "Нямаш запазени търсения"
+    }]
+  }, {
+    "id": "70bd6591-ab99-48ef-a659-d8c489cac62a",
+    "name": "TC_FUNCT_Search_03",
+    "commands": [{
+      "id": "b3210432-deb4-4d81-a34e-bb818aaff1f1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d0f16420-678a-4825-9fe1-da518813e3dd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "acec7de4-5aee-4636-8387-184453997c12",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c5cc6c2-e88d-4bc3-9a6f-b3c5c9ec2aeb",
+      "comment": "",
+      "command": "type",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Лаптоп"
+    }, {
+      "id": "b5aef39c-ed2f-4678-bc5a-ea24559f36de",
+      "comment": "",
+      "command": "click",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38526c7c-9b34-4020-ad03-f549f655e068",
+      "comment": "",
+      "command": "type",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "София"
+    }, {
+      "id": "76e0ef9c-3354-433e-bbad-0c14ce5fb326",
+      "comment": "",
+      "command": "click",
+      "target": "css=.color-9 > strong",
+      "targets": [
+        ["css=.color-9 > strong", "css:finder"],
+        ["xpath=//ul[@id='autosuggest-geo-ul']/li/a/span[2]/strong", "xpath:idRelative"],
+        ["xpath=//span[2]/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2e8309e-761b-4773-a9ed-b091293e51d5",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-searchmain",
+      "targets": [
+        ["id=submit-searchmain", "id"],
+        ["css=#submit-searchmain", "css:finder"],
+        ["xpath=//input[@id='submit-searchmain']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "305c1d82-779c-49a3-8d9a-93fccf1302a0",
+      "comment": "",
+      "command": "store",
+      "target": "500 лв.",
+      "targets": [],
+      "value": "min"
+    }, {
+      "id": "eea001f6-1747-4c52-bd54-5c5b7fe8cc05",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-from > .header",
+      "targets": [
+        ["css=.button-from > .header", "css:finder"],
+        ["xpath=//li[@id='param_price']/div[2]/div/a/span", "xpath:idRelative"],
+        ["xpath=//li/div[2]/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'от (лв.)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e7be0a3-90c9-4c05-bcb2-7c2f5452bc17",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\'search\\[filter_float_price\\3A from\\]\\'\\}",
+      "targets": [
+        ["css=.\\'search\\[filter_float_price\\3A from\\]\\'\\}", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//li[@id='param_price']/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "500"
+    }, {
+      "id": "b9e1019e-ff37-4436-8a91-b5bcab9cf962",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.\\'search\\[filter_float_price\\3A from\\]\\'\\}",
+      "targets": [
+        ["css=.\\'search\\[filter_float_price\\3A from\\]\\'\\}", "css:finder"],
+        ["xpath=(//input[@value=''])[3]", "xpath:attributes"],
+        ["xpath=//li[@id='param_price']/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "2ad4f117-f1f0-4ba5-94b1-c46d16fe99de",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 3",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "e929d067-5f8b-4c40-9b6d-8151bfe4a44e",
+      "comment": "",
+      "command": "while",
+      "target": "${index} <= 10",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0484bd43-6db4-45ac-bc95-2ff56bcac23f",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=tbody:nth-child(1) > .wrap:nth-child(${index}) .wwnormal:nth-child(3) strong:nth-child(1)",
+      "targets": [
+        ["css=tbody:nth-child(1) > .wrap:nth-child(3) .wwnormal:nth-child(3) strong:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='offers_table']/tbody/tr[3]/td/div/table/tbody/tr/td[3]/div/p/strong", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[3]/td/div/table/tbody/tr/td[3]/div/p/strong", "xpath:position"]
+      ],
+      "value": "price"
+    }, {
+      "id": "063d49cd-8b68-4b6c-8683-7dc997584661",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${price} >= ${min} ",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "d0e0515a-9db0-4897-9726-58827012a4d0",
+      "comment": "",
+      "command": "assert",
+      "target": "result",
+      "targets": [],
+      "value": "false"
+    }, {
+      "id": "3421435a-fcb3-4c2c-99f9-5d645083a967",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${index}+1",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "57686032-3fbb-4e2d-b9f2-f97dd98a5595",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "833b7457-3fe1-49c0-a572-b84e018b4e31",
+    "name": "TC_FUNCT_Search_04",
+    "commands": [{
+      "id": "a6cb9249-25fb-41e5-b3e2-9f8988a8ada0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eddad9fa-cf83-4ac7-894d-5b7939078351",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c3c2f755-eaea-42b9-944b-4f6bd6b8f60d",
+      "comment": "",
+      "command": "click",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96d4ef96-b121-40cd-8387-4a9b7e58477c",
+      "comment": "",
+      "command": "type",
+      "target": "id=headerSearch",
+      "targets": [
+        ["id=headerSearch", "id"],
+        ["name=q", "name"],
+        ["css=#headerSearch", "css:finder"],
+        ["xpath=//input[@id='headerSearch']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Лаптоп"
+    }, {
+      "id": "6273c9d1-e3dd-437f-b812-aaf2f906757b",
+      "comment": "",
+      "command": "click",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "afb64dc6-aef7-4898-a47c-d474f0b4103b",
+      "comment": "",
+      "command": "type",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "София"
+    }, {
+      "id": "90766202-459e-49a1-a74a-398f0a98f520",
+      "comment": "",
+      "command": "click",
+      "target": "css=.color-9 > strong",
+      "targets": [
+        ["css=.color-9 > strong", "css:finder"],
+        ["xpath=//ul[@id='autosuggest-geo-ul']/li/a/span[2]/strong", "xpath:idRelative"],
+        ["xpath=//span[2]/strong", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "622eaa91-e8c5-4c59-9b03-39eee529a782",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit-searchmain",
+      "targets": [
+        ["id=submit-searchmain", "id"],
+        ["css=#submit-searchmain", "css:finder"],
+        ["xpath=//input[@id='submit-searchmain']", "xpath:attributes"],
+        ["xpath=//form[@id='searchmain']/div/fieldset/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7860153-2681-44ab-a779-0d9b218a6804",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-to > .header",
+      "targets": [
+        ["css=.button-to > .header", "css:finder"],
+        ["xpath=//li[@id='param_price']/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li/div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'до (лв.)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c59fcc38-b6db-4c95-ab8e-47303238cc04",
+      "comment": "",
+      "command": "store",
+      "target": "1000 лв.",
+      "targets": [],
+      "value": "max"
+    }, {
+      "id": "567b0080-f079-4767-bf20-50ea11778485",
+      "comment": "",
+      "command": "type",
+      "target": "css=.\\'search\\[filter_float_price\\3A to\\]\\'\\}",
+      "targets": [
+        ["css=.button-to > .header", "css:finder"],
+        ["xpath=//li[@id='param_price']/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//li/div[2]/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'до (лв.)')]", "xpath:innerText"]
+      ],
+      "value": "1000"
+    }, {
+      "id": "95e1edad-6e8a-4092-ae08-0c8e591aa7c5",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 3",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "88209f75-9fad-4a3a-93b3-201789f978dd",
+      "comment": "",
+      "command": "while",
+      "target": "${index} <= 10",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bc02bf9-0a17-40ea-98e8-61a8bf84c21d",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=tbody:nth-child(1) > .wrap:nth-child(${index}) .wwnormal:nth-child(3) strong:nth-child(1)",
+      "targets": [
+        ["css=tbody:nth-child(1) > .wrap:nth-child(3) .wwnormal:nth-child(3) strong:nth-child(1)", "css:finder"],
+        ["xpath=//table[@id='offers_table']/tbody/tr[3]/td/div/table/tbody/tr/td[3]/div/p/strong", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[3]/td/div/table/tbody/tr/td[3]/div/p/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'10 лв.')]", "xpath:innerText"]
+      ],
+      "value": "price"
+    }, {
+      "id": "67e23cfd-28ba-4905-8e25-2cf64863be49",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${price} <= ${max}",
+      "targets": [],
+      "value": "result"
+    }, {
+      "id": "c2af962c-f56c-4375-87f4-8730ef717532",
+      "comment": "",
+      "command": "assert",
+      "target": "result",
+      "targets": [],
+      "value": "true"
+    }, {
+      "id": "ba93bf8c-2e51-4d60-8f0e-2285240f9830",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${index}+1",
+      "targets": [],
+      "value": "index"
+    }, {
+      "id": "be7f28f2-0a70-4506-82bd-24ebf79d96d9",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a1dbf9b3-3c8e-49d2-89fa-a75c4984aef1",
+    "name": "TC_FUNCT_Sort_02",
+    "commands": [{
+      "id": "2d1d1490-d7c2-4a72-bf75-8d6b587f36cd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b7244b4-c088-486f-b589-52c1f2955143",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "120e0300-bfe7-4583-89ba-5496a1ec0bea",
+      "comment": "",
+      "command": "click",
+      "target": "css=.maincategories-list:nth-child(2) > .li:nth-child(1) span:nth-child(1)",
+      "targets": [
+        ["css=.maincategories-list:nth-child(2) > .li:nth-child(1) span:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='searchmain-container']/div/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Недвижими имоти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8219439-b832-46f6-93e8-f4620fa7f614",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fleft:nth-child(2) > .cat-368 > .link > span",
+      "targets": [
+        ["css=.fleft:nth-child(2) > .cat-368 > .link > span", "css:finder"],
+        ["xpath=//div[@id='bottom368']/ul/li[2]/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "164cdd5c-7112-4663-ad83-da70e26d2ad9",
+      "comment": "",
+      "command": "click",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23f0f5b5-6dd2-4b33-8663-fefbc02dab3b",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='cityField']",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "София"
+    }, {
+      "id": "4bab4a53-888c-4dbb-aac1-e05a3e648b51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.color-9:nth-child(3)",
+      "targets": [
+        ["css=.color-9:nth-child(3)", "css:finder"],
+        ["xpath=//ul[@id='autosuggest-geo-ul']/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Област София-град')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ded2809e-5bb4-4af0-b3a5-66359cd8f90e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#targetorder-select-gallery > dt > a",
+      "targets": [
+        ["css=#targetorder-select-gallery > dt > a", "css:finder"],
+        ["xpath=//dl[@id='targetorder-select-gallery']/dt/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[595]", "xpath:href"],
+        ["xpath=//form/dl/dt/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Най-евтини')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89b46fdc-5494-427c-954f-1429962ff68e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#targetorder-select-gallery li:nth-child(3) > a",
+      "targets": [
+        ["css=#targetorder-select-gallery li:nth-child(3) > a", "css:finder"],
+        ["xpath=//dl[@id='targetorder-select-gallery']/dd/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[598]", "xpath:href"],
+        ["xpath=//form/dl/dd/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Най-скъпи')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "45b653bb-ee5e-454a-b079-021a426df8b3",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#targetorder-select-gallery > dt > a",
+      "targets": [],
+      "value": "Най-скъпи"
+    }]
+  }, {
+    "id": "ef823238-97de-4c41-b4bb-c12488380255",
+    "name": "TC_FUNCT_Sort_03",
+    "commands": [{
+      "id": "a8cad83f-59df-481f-a766-c89a79e0f291",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.olx.bg/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "21f746db-c113-4146-8cea-02303fa4b5f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5de7eee9-b4f8-44bd-af0b-316a06e34d85",
+      "comment": "",
+      "command": "click",
+      "target": "css=.maincategories-list:nth-child(2) > .li:nth-child(1) span:nth-child(1)",
+      "targets": [
+        ["css=.maincategories-list:nth-child(2) > .li:nth-child(1) span:nth-child(1)", "css:finder"],
+        ["xpath=//section[@id='searchmain-container']/div/div/div/div/div/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Недвижими имоти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b90771d1-cc32-4127-b1b7-f238c4354a64",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fleft:nth-child(2) > .cat-368 > .link > span",
+      "targets": [
+        ["css=.fleft:nth-child(2) > .cat-368 > .link > span", "css:finder"],
+        ["xpath=//div[@id='bottom368']/ul/li[2]/a/span/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3dc413e-fb99-4360-ab79-230b77114984",
+      "comment": "",
+      "command": "click",
+      "target": "id=cityField",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb9945c9-f663-419e-8bde-71688473f9f5",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input[@id='cityField']",
+      "targets": [
+        ["id=cityField", "id"],
+        ["css=#cityField", "css:finder"],
+        ["xpath=//input[@id='cityField']", "xpath:attributes"],
+        ["xpath=//div[@id='locationBox']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "София"
+    }, {
+      "id": "63a9bd54-c65e-4df2-8259-333f1ef2e319",
+      "comment": "",
+      "command": "click",
+      "target": "css=.color-9:nth-child(3)",
+      "targets": [
+        ["css=.color-9:nth-child(3)", "css:finder"],
+        ["xpath=//ul[@id='autosuggest-geo-ul']/li/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Област София-град')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "97a8e021-57fd-413d-aa73-5c5056a98ee9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#targetorder-select-gallery > dt > a",
+      "targets": [
+        ["css=#targetorder-select-gallery > dt > a", "css:finder"],
+        ["xpath=//dl[@id='targetorder-select-gallery']/dt/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[595]", "xpath:href"],
+        ["xpath=//form/dl/dt/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Най-евтини')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "66efbf73-ed66-4180-809c-cfad8a00acdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#targetorder-select-gallery li:nth-child(1) > a",
+      "targets": [
+        ["css=#targetorder-select-gallery li:nth-child(3) > a", "css:finder"],
+        ["xpath=//dl[@id='targetorder-select-gallery']/dd/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[598]", "xpath:href"],
+        ["xpath=//form/dl/dd/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Най-скъпи')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1423c4f2-c284-4751-a682-34ecc21d97a8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#targetorder-select-gallery > dt > a",
+      "targets": [],
+      "value": "Най-нови"
+    }]
+  }],
+  "suites": [{
+    "id": "e373addd-50ad-4468-8899-2d4524df4475",
+    "name": "LoginTests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["1ae8d5e6-8df9-4f9c-8464-65262ed101d7", "2c6b4a9e-d451-40e1-8a17-8c1e9b1abef1", "ff64c52a-e105-473f-904b-b8aec1ad1c51", "83c29c0c-e374-431c-bc14-4225e6d6353a", "4e6e15a1-ccfe-4116-8f6d-06118279b99b", "f5cd4f8c-3c02-42ee-b196-39ad296a8836"]
+  }, {
+    "id": "b02e05d4-8d0c-4d59-862b-8de2214541ba",
+    "name": "RegisterTests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e2aa3e7a-dfda-421f-9686-30e2f46d3567", "fbea0838-9c99-460b-92f6-8cc592cb036e", "070c0016-ac2f-45b9-8856-98a4289d7062", "a36c46b6-6e56-4522-949b-5792729b16dd", "c9ad8372-87e4-4d46-ba92-a76b04a19b2e", "add13be3-2e3a-47fa-bbfb-b477bef8b8e4"]
+  }, {
+    "id": "05785f62-135d-42ad-bf89-e44f8e8a2ae6",
+    "name": "SortTests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ca181206-ff9f-46cd-a43f-6bd69f685858", "a1dbf9b3-3c8e-49d2-89fa-a75c4984aef1", "ef823238-97de-4c41-b4bb-c12488380255"]
+  }, {
+    "id": "81a183e1-a199-4d17-ac1a-61fc7e7e5231",
+    "name": "SearchTests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["90d2989b-7706-4f2c-9d94-7e494628e97d", "49233c97-d58f-4693-8a6b-6486bef7229c", "70bd6591-ab99-48ef-a659-d8c489cac62a", "833b7457-3fe1-49c0-a572-b84e018b4e31", "0fa34336-d206-4c5b-b722-d87df3493853", "4a228fe6-a530-471a-a628-47134c540e37", "ee8f4ce6-c8fb-42c8-a116-193870f064f9", "e24b5f82-7d23-4d77-8b8e-67bc7985456f"]
+  }, {
+    "id": "12afd904-15eb-4ffe-a905-b8394b4fd971",
+    "name": "FavoriteListTests",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["816460d3-c4f3-49e2-aa4b-c2aa9b23b0b2", "f10a58b7-ab5a-41e4-9277-7688cc515675", "9050e8b5-13ae-4f4e-a79a-641345805788"]
+  }],
+  "urls": ["https://www.olx.bg/"],
+  "plugins": []
+}

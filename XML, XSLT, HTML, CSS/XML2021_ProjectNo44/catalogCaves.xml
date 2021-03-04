@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="caves.xsl"?>
+
+<!DOCTYPE catalogCaves SYSTEM "caveCatalog.dtd" [
+	<!ENTITY peshteraProhodna SYSTEM "images/peshteraProhodna.jpg" NDATA jpg>
+	<!ENTITY peshteraMagurata SYSTEM "images/peshteraMagurata.jpg" NDATA jpg>
+	<!ENTITY peshteraLedenika SYSTEM "images/peshteraLedenika.jpg" NDATA jpg>
+	<!ENTITY pesheraBachoKiro SYSTEM "images/pesheraBachoKiro.jpg" NDATA jpg>
+	<!ENTITY dyavolskotoGyrlo SYSTEM "images/dyavolskotoGyrlo.jpg" NDATA jpg>
+	<!ENTITY peshteraUtroba SYSTEM "images/peshteraUtroba.jpg" NDATA jpg>
+	<!ENTITY peshteraSnejanka SYSTEM "images/peshteraSnejanka.jpg" NDATA jpg>
+	<!ENTITY yagodinskaPeshtera SYSTEM "images/yagodinskaPeshtera.jpg" NDATA jpg>
+	<!ENTITY devetashkaPeshtera SYSTEM "images/devetashkaPeshtera.jpg" NDATA jpg>
+
+	<!ENTITY peshteraProhodnaMap SYSTEM "images/peshteraProhodnaMap.jpg" NDATA jpg>
+	<!ENTITY peshteraMagurataMap SYSTEM "images/peshteraMagurataMap.jpg" NDATA jpg>
+	<!ENTITY peshteraLedenikaMap SYSTEM "images/peshteraLedenikaMap.jpg" NDATA jpg>
+	<!ENTITY pesheraBachoKiroMap SYSTEM "images/pesheraBachoKiroMap.jpg" NDATA jpg>
+	<!ENTITY dyavolskotoGyrloMap SYSTEM "images/dyavolskotoGyrloMap.jpg" NDATA jpg>
+	<!ENTITY peshteraUtrobaMap SYSTEM "images/peshteraUtrobaMap.jpg" NDATA jpg>
+	<!ENTITY peshteraSnejankaMap SYSTEM "images/peshteraSnejankaMap.jpg" NDATA jpg>
+	<!ENTITY yagodinskaPeshteraMap SYSTEM "images/yagodinskaPeshteraMap.jpg" NDATA jpg>
+	<!ENTITY devetashkaPeshteraMap SYSTEM "images/devetashkaPeshteraMap.jpg" NDATA jpg>
+
+]>
+
+
+<catalogCaves>
+	<regions>
+		<region id="NW"> Северозападен район </region>
+		<region id="NC"> Северен централен район</region>
+		<region id="NE"> Северенизточен район</region>
+		<region id="SW"> Югозападен район</region>
+		<region id="SC"> Южен централен район</region>
+		<region id="SE"> Югоизточен район</region>
+	</regions>
+	
+	<caveList>
+		<district regionId = "NW">
+			<cave>	
+				<title> Пещерата Проходна </title>	
+				<image href="peshteraProhodna"/>
+				<description> Изумително, но факт! Пещерата Проходна е изцяло дело на природата,
+				тоест, никой човек не се е намесвал в оформянето й. Двете огромни издължени 
+				дупки на тавана изглеждат точно като човешки очи! Затова местните смятат, че
+				това са Очите на Господ. Нещо повече – таванът на пещерата е висок 56 метра.
+				Това прави Проходна привлекателна дестинация за любителите на бънджи скокове. </description>
+				<characteristics>
+					<location> Ловеч </location>
+					<mountain> Западна Стара планина </mountain>
+					<length> 262 м. </length>
+					<animalSpecies> Популация от 8000 прилепа </animalSpecies>
+				</characteristics>			
+				<forTourists>
+					<workingTime> - </workingTime>
+					<cost> - </cost>
+					<phoneNumber> 0869873726 </phoneNumber>
+					<visitTime> 40мин. </visitTime>	
+				</forTourists>	
+				<map href="peshteraProhodnaMap"/>
+			</cave>
+
+			<cave>	
+				<title> Пещера Магурата </title>	
+				<image href="peshteraMagurata"/>
+				<description> Разположена близо до Белоградчик, пещерата Магура е известна с 
+				колонията си от прилепи, с качественото българско вино, отлежаващо в мразовитите
+				й камери и с праисторическите си пещерни картини. Лесно е да забележите прилепите,
+				висящи от тавана, или буретата с вино, които може да опитате вътре в пещерата! 
+				Частите от пещерата, в които са открити пещерните рисунки, са недостъпни за 
+				посетители, за съжаление. Те се пазят при специални условия, които да запазят рисунките
+				във вековете. В Магурата има 750 картини от Бронзовата епоха, 
+				изобразяващи лов, както и религиозни обичаи. </description>
+				<characteristics>
+					<location> Видин </location>
+					<mountain> Западна Стара планина </mountain>
+					<length> 2608 м. </length>
+					<animalSpecies> Магурата е най-значимата за прилепите пещера в цяла Северозападна България.</animalSpecies>
+				</characteristics>			
+				<forTourists>
+					<workingTime> 10:00-16:30ч. (лято), 10:00-15:00ч. (зима) </workingTime>
+					<cost> 5лв. за възрастни, 3лв. за учащи и пенсионери </cost>
+					<phoneNumber> 0894481964 </phoneNumber>
+					<visitTime> 1ч. и 40мин. </visitTime>	
+				</forTourists>	
+				<map href="peshteraMagurataMap"/>
+			</cave>
+
+			<cave>	
+				<title> Пещера Леденика </title>	
+				<image href="peshteraLedenika"/>
+				<description> Със своите 10 подземни зали, пещерата Леденика е практически малък 
+				подземен свят, населен от причудливи сталактити и други невероятни пещерни 
+				образувания. Поради приликата си с животни или измислени герои, на някои от 
+				тях са дадени имена като Крокодила, Главата на гиганта, Сокола или Дядо Коледа. 
+				Пещерата Леденика се намира сред вертикалните скали на спиращия сърцето природен 
+				парк Врачански Балкан, в околностите на Враца. Всяка година тя бива посещавана от
+				многобройни туристи. </description>
+				<characteristics>
+					<location> Враца </location>
+					<mountain> Западна Стара планина </mountain>
+					<length> 320 м. </length>
+					<animalSpecies> 53 животински вида, сред които и насекомото Светломразец </animalSpecies>
+				</characteristics>			
+				<forTourists>
+					<workingTime> 08:30-18:00ч. (лято), 8:30-16:00ч. (зима) </workingTime>
+					<cost> 8 лв. за възрастни, 6 лв. за учащи и пенсионери </cost>
+					<phoneNumber> 0882621608 </phoneNumber>
+					<visitTime> 1 час </visitTime>	
+				</forTourists>	
+				<map href="peshteraLedenikaMap"/>
+			</cave>
+
+		</district>
+
+		<district regionId="NC">
+			<cave>	
+				<title>Деветашка пещера</title>	
+				<image href="devetashkaPeshtera"/>
+				<description> Със своите огромни зали и нереални пролуки в тавана, Деветашката 
+				пещера изглежда като пейзаж от някоя видео игра. Пещерата е открита през 1921г. 
+				край село Деветаки, Ловешко. Заради огромния си размер, тя била използва от 
+				българското правителство за съхранение на храни и бензин, а след това се превърнала 
+				в таен военен обект. </description>
+				<characteristics>
+					<location> Ловеч </location>
+					<mountain> Средна Стара планина </mountain>
+					<length> 2442 м. </length>
+					<animalSpecies> Смок мишкар и още 45 вида животни. </animalSpecies>
+				</characteristics>			
+				<forTourists>
+					<workingTime> 08:00-20:00ч. (всеки ден) </workingTime>
+					<cost> 3 лв. за възрастни, 2 лв. за учащи и пенсионери </cost>
+					<phoneNumber> 0888150379 </phoneNumber>
+					<visitTime> 30мин. </visitTime>	
+				</forTourists>	
+				<map href="devetashkaPeshteraMap"/>
+			</cave>
+
+			<cave>	
+				<title> Пещера Бачо Киро </title>	
+				<image href="pesheraBachoKiro"/>
+				<description> Разположена непосредствено до живописния Дряновски манастир в централна 
+				България, пещерата Бачо Киро е мястото, където са открити най-ранните човешки останки 
+				в България, които датират от средния (70 000 – 50 000 г. пр. Хр.) и късния (45 000 до 
+				20 000 г. пр. Хр.) Палеолит. С откритите там погребения, пещерата се нарежда сред най-важните 
+				палеолитни обекти в Европа. Но откритията не са включвали единстевно човешкия кости. 
+				Изследователите са открили кости на гигантска триметрова пещерна мечка!  </description>
+				<characteristics>
+					<location> Габрово </location>
+					<mountain> Средна Стара планина </mountain>
+					<length> 3500 м. </length>
+					<animalSpecies> 4 вида прилепи (Голям Подковонос, Малък Подковонос, Южен Подковонос и Нощник на Натерер) </animalSpecies>
+				</characteristics>			
+				<forTourists>
+					<workingTime> 09:00-18:00ч. (лято), 10:30-16:00ч. (зима) </workingTime>
+					<cost> 5 лв. къс маршрут, 8 лв. дълъг маршрут </cost>
+					<phoneNumber> 0887899114 </phoneNumber>
+					<visitTime> 30мин. (къс маршрут), 70мин. (дълъг маршрут) </visitTime>	
+				</forTourists>	
+				<map href="pesheraBachoKiroMap"/>
+			</cave>
+
+		</district>
+
+		<district regionId = "SC">
+			<cave>	
+				<title> Пещера Утробата </title>	
+				<image href="peshteraUtroba"/>
+				<description> Пещерата изключително много наподобява женска интимна зона. Има доказателства, че 
+				отворът не пещерата е оформен от древните траки около 1000г. пр. Хр. Пещерата била използвана за 
+				светилище за женско плодородие. Утробата е проектирана така, че през зимата, точно по обяд през 
+				цепнатината в горната част на пещерата се процежда слънчев лъч до дъното на пещерата, 
+				където символично „опложда” утробата. </description>
+				<characteristics>
+					<location> Кърджали </location>
+					<mountain> Родопи </mountain>
+					<length> 22 м. </length>
+					<animalSpecies> - </animalSpecies>
+				</characteristics>			
+				<forTourists>
+					<workingTime> - </workingTime>
+					<cost> - </cost>
+					<phoneNumber> - </phoneNumber>
+					<visitTime> 2 часа </visitTime>	
+				</forTourists>
+				<map href="peshteraUtrobaMap"/>	
+			</cave>
+
+			<cave>	
+				<title> Дяволското гърло </title>	
+				<image href="dyavolskotoGyrlo"/>
+				<description> Дяволското гърло се намира в Западните Родопи на 17 км южно от град Девин. Това е една от малкото пещери, която не блести с изящни образувания. 
+				Това, което привлича и омагьосва хората, е възможността да се докоснат до истинска стихия, до частица 
+				от тайнствения и страшен подземен свят. Входът на пещерата, наподобяващ дяволска глава, в гърлото 
+				на която се излива огромен ревящ водопад, от дълбока древност подхранва човешкото въображение и 
+				поражда множество легенди. Най-популярното предание е, че именно през Дяволското гърло се спуснал Орфей 
+				в подземното царство на Хадес, за да търси любимата си Евридика. </description>
+				<characteristics>
+					<location> Смолян </location>
+					<mountain> Родопи </mountain>
+					<length> 548 м. </length>
+					<animalSpecies> 4 вида прилеп обитават пещерата (Голям подковонос, Малък подковонос, Дългопръст нощник и 
+					Дългокрил прилеп). Там се намира най-голямата колония от вида Дългокрил прилеп. </animalSpecies>
+				</characteristics>			
+				<forTourists>
+					<workingTime> 10:00-17:00ч. (лято), 10:00-16:00 (зима) </workingTime>
+					<cost> 4 лв. за възрастни, 2 лв. за учащи и пенсионери </cost>
+					<phoneNumber> 0890222515 </phoneNumber>
+					<visitTime> 30мин. </visitTime>	
+				</forTourists>	
+				<map href="dyavolskotoGyrloMap"/>
+			</cave>
+
+			<cave>	
+				<title> Пещера Снежанка </title>	
+				<image href="peshteraSnejanka"/>
+				<description> Снежанка е една от най-красивите пещери в България. 
+				Наричана е още „Перлата на Родопите” и е включена в списъка на 100-те национални туристически обекта.
+				Обявена е за природна забележителност със заповед No.512 от 14.03.1961 г. В своите само 145 метра 
+				дължина тя е събрала всички форми на пещерни образувания. Намира се на 5 км oт град Пещера в посока 
+				към гр. Батак. Локацията и красивата местност събира туристи от цяла България с невероятните си пещерни образувания. </description>
+				<characteristics>
+					<location> Пазарджик </location>
+					<mountain> Родопи </mountain>
+					<length> 368 м. </length>
+					<animalSpecies> 5 вида защитени прилепи </animalSpecies>
+				</characteristics>			
+				<forTourists>
+					<workingTime> 09:00-17:15ч. (лято), 10:00-16:00ч. (зима) </workingTime>
+					<cost> 7 лв. за възрастни, 4 лв. за учащи и пенсионери </cost>
+					<phoneNumber> 0896715972 </phoneNumber>
+					<visitTime> 45мин. обиколка + 1ч. и 15мин. преход в двете посоки </visitTime>	
+				</forTourists>
+				<map href="peshteraSnejankaMap"/>	
+			</cave>
+
+			<cave>	
+				<title> Ягодинска пещера </title>	
+				<image href="yagodinskaPeshtera"/>
+				<description> Ягодинската пещера представлява сложна система на няколко етажа, образувана в мрамори.
+				Благоустроен е най-долният етаж, но освен него има още два взаимносвързани етажа на пещерата. 
+				Туристическият маршрут преминава през два изкуствени отвора – вход и изход. Естественият вход на пещерата
+				се намира на километър надолу по течението на Буйновската река. В него са намерени останки от жилище от 
+				епохата на енеолита (каменно-медна) - керамични съдове, оръдия на труда, керамична пещ и др. Проучвания 
+				показват, че на това място са живели майстори грънчари, които добивали глината от вътрешността на пещерата.  
+				</description>
+				<characteristics>
+					<location> Смолян </location>
+					<mountain> Родопи </mountain>
+					<length> 8501 м. </length>
+					<animalSpecies> 11 вида прилепи, 6 от които са защитени от изчезване </animalSpecies>
+				</characteristics>			
+				<forTourists>
+					<workingTime> 09:00-16:15ч. </workingTime>
+					<cost> 8 лв. за възрастни, 5 лв. за учащи и пенсионери </cost>
+					<phoneNumber> 0889903642 </phoneNumber>
+					<visitTime> 50мин. </visitTime>	
+				</forTourists>	
+				<map href="yagodinskaPeshteraMap"/>
+			</cave>
+		</district>
+	</caveList>
+</catalogCaves>

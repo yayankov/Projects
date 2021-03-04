@@ -1,0 +1,35 @@
+
+<!ELEMENT catalogCaves (regions, caveList)>
+<!ELEMENT regions (region+)>
+<!ELEMENT caveList (district+)>
+
+<!ELEMENT region (#PCDATA)>
+<!ATTLIST region 
+		id ID #REQUIRED>
+
+<!ELEMENT district (cave*)>
+<!ATTLIST district
+		regionId IDREF #REQUIRED>
+		
+<!ELEMENT cave (title, image, description, characteristics, forTourists, map)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT image EMPTY>
+<!ATTLIST image href ENTITY #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT map EMPTY>
+<!ATTLIST map href ENTITY #REQUIRED>
+
+<!ELEMENT characteristics (location, mountain, length, animalSpecies)>
+<!ELEMENT forTourists (workingTime, cost, phoneNumber, visitTime)>
+
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT mountain (#PCDATA)>
+<!ELEMENT length (#PCDATA)>
+<!ELEMENT animalSpecies (#PCDATA)>
+
+<!ELEMENT workingTime (#PCDATA)>
+<!ELEMENT cost (#PCDATA)>
+<!ELEMENT phoneNumber (#PCDATA)>
+<!ELEMENT visitTime (#PCDATA)>
+
+<!NOTATION jpg SYSTEM "jpg">
